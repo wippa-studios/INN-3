@@ -1,0 +1,264 @@
+.profile-wrapper {
+  max-width: 90vw;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.pre-line {
+  white-space: pre-line; /*json n omzetten naar echte whitelines*/
+}
+
+/*  TOP SECTION  */
+.top-section {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.avatar-column {
+  flex: 0 0 150px;
+  text-align: center;
+}
+
+.avatar-placeholder {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #589fd3;
+  /* Standaard blauw, vervang later door img */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.dummy-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.character-name {
+  color: #2ba29b;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.info-column {
+  flex: 1;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table td {
+  padding: 12px 15px;
+  border: 3px solid white;
+  text-align: left;
+  vertical-align: top;
+}
+
+.info-label {
+  background-color: #fce6a9;
+  font-weight: bold;
+  width: 30%;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.info-value {
+  background-color: #fdf5d6;
+  font-size: 14px;
+}
+
+.highlight-label {
+  background-color: #eeb033;
+  /* Goudgeel */
+}
+
+.highlight-value {
+  background-color: #fce6a9;
+  font-weight: bold;
+}
+
+/*  JOBS   */
+.jobs-section {
+  margin-bottom: 30px;
+  overflow-x: auto;
+}
+
+.jobs-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+.jobs-table th,
+.jobs-table td {
+  padding: 10px;
+  border: 3px solid white;
+  vertical-align: middle;
+}
+
+.empty-header {
+  border: none !important;
+  background: transparent !important;
+}
+
+.phase-header {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.phase-1 {
+  background-color: #de7862;
+}
+
+.phase-2 {
+  background-color: #2ba29b;
+}
+
+.sub-header-row th {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.job-title-col {
+  background-color: #fce6a9;
+  text-transform: uppercase;
+}
+
+.dice-col {
+  background-color: #eeb033;
+  font-size: 24px;
+  text-align: center;
+}
+
+.phase-1-light {
+  background-color: #f2a47b;
+}
+
+.phase-2-light {
+  background-color: #4bc2bc;
+}
+
+.pension-col {
+  background-color: #eeb033;
+}
+
+.jobs-table tbody tr {
+  background-color: #fdf5d6;
+}
+
+.jobs-table tbody td {
+  background-color: #fdf5d6;
+}
+
+.dice-cell {
+  background-color: #fce6a9 !important;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.job-title-cell {
+  background-color: #ffffff !important;
+}
+
+/* BOTTOM SECTION  */
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.extra-info-table {
+  width: 75%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.extra-info-table td {
+  padding: 12px 15px;
+  border: 3px solid white;
+  text-align: left;
+  vertical-align: top;
+}
+
+.extra-label {
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+/* Kleuren voor de onderste tabel */
+.extra-info-table tr:nth-child(1) .extra-label {
+  background-color: #fce6a9;
+}
+
+.extra-info-table tr:nth-child(1) .extra-value {
+  background-color: #fdf5d6;
+}
+
+.phase-1-label {
+  background-color: #f2a47b;
+}
+
+.phase-1-value {
+  background-color: #fbe2d5;
+}
+
+.phase-2-label {
+  background-color: #4bc2bc;
+}
+
+.phase-2-value {
+  background-color: #d8f1ef;
+  height: 45px;
+}
+
+.avatar-column {
+  flex: 0 0 18vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.character-avatar {
+  width: 120%;
+  height: 120%;
+  object-fit: contain;
+}
+
+.avatar-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-name {
+  color: #2ba29b;
+  font-size: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+
+  letter-spacing: 1px;
+}

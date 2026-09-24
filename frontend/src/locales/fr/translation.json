@@ -1,0 +1,265 @@
+{
+  "studentPhase": {
+    "title": "PÉRIODE ÉTUDIANT",
+    "character_label": "PROFIL",
+    "instructions": "Décidez de l'emploi du temps de votre personnage.\nLes choix que vous faites aujourd'hui pourront dans le futur être des atouts ou des inconvénients.\nCertains choix ont été faits pour vous, vous pouvez encore en faire 3 en plus !",
+    "alert_max_choices": "Vous ne pouvez faire que {{max}} choix supplémentaires au total !",
+    "next_button": "SUIVANT",
+    "choices_remaining": "Il vous reste encore {{count}} choix à faire.",
+    "readonly_instructions": "Choix effectués pendant la période étudiante",
+    "categories": {
+      "volunteering": {
+        "title": "BÉNÉVOLAT",
+        "desc": "• Apprendre à connaître de nouvelles personnes\n• Se sentir valorisé et apprécié"
+      },
+      "social": {
+        "title": "CONTACTS SOCIAUX",
+        "desc": "• Disposer d'un large réseau social\n• Fêtes, être au café avec des amis..."
+      },
+      "family": {
+        "title": "TEMPS PASSÉ EN FAMILLE",
+        "desc": "• Recevoir du soutien dans les temps difficiles\n• Offrir également du temps et du soutien"
+      },
+      "education": {
+        "title": "ÉDUCATION ET FORMATION",
+        "desc": "• Investir dans l'apprentissage tout au long de sa vie\n• S'ouvrir de nombreuses opportunités d'emploi"
+      },
+      "job_spend": {
+        "title": "JOB ÉTUDIANT - OBJECTIF: DÉPENSER",
+        "desc": "• Expérience professionnelle\n• Budget fêtes, voyages... pendant la période étudiant"
+      },
+      "job_save": {
+        "title": "JOB ÉTUDIANT - OBJECTIF: ÉPARGNER",
+        "desc": "• Expérience professionnelle\n• Économiser pour plus tard \n• Chaque cercle choisi ajoute € 5000 "
+      },
+      "health": {
+        "title": "VIVRE SAINEMENT",
+        "desc": "• Faire du sport et s'alimenter sainement\n• Confiance en soi et contacts sociaux"
+      }
+    }
+  },
+
+  "characters": {
+    "char1": {
+      "name": "Nina",
+      "education": "Bachelier en journalisme",
+      "interests": "• Lire\n• Famille",
+      "info": "• 2 soeurs plus jeunes, dont l'une est atteinte d'autisme\n• Rêve de devenir présentatrice du journal télévisé",
+      "experience": "7 ans = 84 mois",
+      "job1": "Responsable de la communication",
+      "job2": "Employée de rédaction",
+      "job3": "Présentatrice du journal télévisé",
+      "perks": "/",
+      "parental_support": "/"
+    },
+    "char2": {
+      "name": "Dounia",
+      "education": "Bachelier en architecture d'intérieur",
+      "interests": "• Mode\n• Les citytrips",
+      "info": "• Sa mère est architecte\n• Elle est enfant unique",
+      "experience": "7 ans = 84 mois",
+      "job1": "Employée dans un magasin de décoration d'intérieur",
+      "job2": "Designer",
+      "job3": "Architecte d'intérieur",
+      "perks": "/",
+      "parental_support": "50.000 €"
+    },
+    "char3": {
+      "name": "Benoit",
+      "education": "Enseignement professionnel (Domotique)",
+      "interests": "• Contacts sociaux\n• Profiter de la vie",
+      "info": "• Son père est décédé il y a 6 ans\n• Il a tout un temps connu des moments difficiles",
+      "experience": "10 ans = 120 mois",
+      "job1": "Installateur indépendant en domotique",
+      "job2": "Installateur en domotique pour une société",
+      "job3": "Installateur d'alarme en tant qu'indépendant",
+      "perks": "/",
+      "parental_support": "35.000 €"
+    },
+    "char4": {
+      "name": "Romelu",
+      "education": "Master - Ingénieur commercial",
+      "interests": "• Les voitures de sport\n• Le luxe",
+      "info": "• Très ambitieux\n• Ses 2 parents exercent une haute fonction\n• Vient d'une famille riche",
+      "experience": "6 ans = 72 mois",
+      "job1": "Gestionnaire chargé de relations dans une banque",
+      "job2": "Dirigeant de sa propre entreprise (indépendant)",
+      "job3": "Gestionnaire de projet dans une entreprise métallurgique",
+      "perks": "• Gestionnaire de projet: voiture de société, assurance omnium, assurance hospitalisation\n• Autre job: /",
+      "parental_support": "Il peut habiter dans l'appartement de ses parents pendant la première période de vie active. Il ne paie donc aucun loyer. Romelu devra ensuite chercher son propre logement."
+    },
+    "char5": {
+      "name": "Ishan",
+      "education": "Master - Ingénieur industriel",
+      "interests": "• Art et culture",
+      "info": "• Subit des pressions de la part de ses parents\n• Ses (grands-)parents ont travaillé dur pour atteindre leurs objectifs",
+      "experience": "6 ans = 72 mois",
+      "job1": "Manager de projet",
+      "job2": "Ingénieur de maintenance",
+      "job3": "Ingénieur civil",
+      "perks": "• Ingénieur civil et de maintenance: voiture de société, assurance omnium, assurance hospitalisation\n• Autre job: /",
+      "parental_support": "€ 75.000"
+    },
+    "char6": {
+      "name": "Lena",
+      "education": "Enseignement professionel (esthéticienne)",
+      "interests": "• Mode et maquillage\n• Médias sociaux",
+      "info": "• Fait partie d'une famille recomposée\n• Elle a 1 frère plus âgé et 3 jeunes sœurs",
+      "experience": "11 ans = 132 mois",
+      "job1": "Aide pédicure",
+      "job2": "Spécialiste en soins de beauté",
+      "job3": "Manicure indépendante",
+      "perks": "/",
+      "parental_support": "€ 40.000"
+    },
+    "char7": {
+      "name": "Yassin",
+      "education": "Bachelier Assistant social",
+      "interests": "• Bénévolat\n• Animateur dans un mouvement de jeunesse",
+      "info": "• Effectue du travail bénévole\n• Parle plusieurs langues",
+      "experience": "7 ans = 84 mois",
+      "job1": "Travailleur social",
+      "job2": "Assistant service Ressources Humaines",
+      "job3": "Coach professionnel",
+      "perks": "/",
+      "parental_support": "€ 30.000"
+    },
+    "char8": {
+      "name": "Emma",
+      "education": "Gestionnaire en informatique (enseign. de qualification)",
+      "interests": "• Les nouvelles technologies\n• Des jeux vidéos",
+      "info": "• Déficience motrice du fait d'une malformation de la colonne vertébrale\n• C'est une vraie fonceuse/battante",
+      "experience": "11 ans = 132 mois",
+      "job1": "Employée dans un magasin d'électronique",
+      "job2": "Employée dans un centre d'appel",
+      "job3": "Analyste de données",
+      "perks": "• Analyste de données: voiture de société, assurance omnium, assurance hospitalisation\n• Autre job: /",
+      "parental_support": "€ 25.000"
+    },
+    "char9": {
+      "name": "Ujana",
+      "education": "Master en sciences vétérinaires",
+      "interests": "• Nature\n• Voyage et aventure",
+      "info": "• Effectue du travail bénévole\n• Veut découvrir le monde après ses études\n• Ne veut pas s'engager pour le moment",
+      "experience": "5 ans = 60 mois",
+      "job1": "Employée dans un centre d'accueil pour animaux",
+      "job2": "Responsable du bien-être animal dans une ferme d'élevage",
+      "job3": "Vétérinaire",
+      "perks": "/",
+      "parental_support": "€ 25.000"
+    },
+    "char10": {
+      "name": "Maxime",
+      "education": "N'a pas obtenu de diplôme de l'enseignement secondaire",
+      "interests": "• Sport\n• Contacts sociaux",
+      "info": "• Veut gagner de l'argent pour aider financièrement sa mère malade\n• Souhaiterait fonder une famille nombreuse",
+      "experience": "11 ans = 132 mois",
+      "job1": "Barman",
+      "job2": "Rénovations en tant qu'indépendant",
+      "job3": "Vendeur",
+      "perks": "• Vendeur: voiture de société, assurance OMNIUM et assurance hospitalisation\n• Autre job: /",
+      "parental_support": "€ 25.000"
+    }
+  },
+
+  "profile_labels": {
+    "age": "ÂGE",
+    "years": "ans",
+    "education": "NIVEAU D'ÉTUDES",
+    "interests": "CENTRES D'INTÉRÊT",
+    "info": "INFOS",
+    "experience": "EXPÉRIENCE PROFESS. PREMIÈRE PHASE",
+    "phase_1": "PÉRIODE DE VIE ACTIVE 1",
+    "phase_2": "PÉRIODE DE VIE ACTIVE 2",
+    "possible_jobs": "JOBS ENVISAGEABLES",
+    "brut_start": "SALAIRE MENSUEL BRUT DÉBUTANT",
+    "net_start": "SALAIRE MENSUEL NET DÉBUTANT",
+    "avg_brut": "SALAIRE MENSUEL BRUT MOYEN",
+    "avg_net": "SALAIRE MENSUEL NET MOYEN",
+    "pension": "MONTANT NET DE LA PENSION",
+    "perks": "AVANTAGES EXTRA-LÉGAUX",
+    "parental_support": "SOUTIEN FINANCIER DES PARENTS",
+    "children": "NOMBRE D'ENFANTS",
+    "partner_support": "SOUTIEN FINANCIER DES PARENTS DU/DE LA PARTENAIRE",
+    "partner_wage": "SALAIRE DU PARTENAIRE",
+    "phase_1_small": "Période de vie active 1",
+    "phase_2_small": "Période de vie active 2"
+  },
+  "home_player_page": {
+    "title": "Rejoindre une partie",
+    "room_code": "Code de la salle",
+    "nickname": "Votre nom",
+    "table_number": "Numéro de table",
+    "join_game": "DÉMARRER",
+    "active_session": "Vous êtes encore dans la salle:",
+    "continue_game": "CONTINUER À JOUER",
+    "leave_table": "QUITTER LA TABLE DÉFINITIVEMENT"
+  },
+  "supervisor_page": {
+    "title": "Tableau de bord",
+    "create_room_button": "CRÉER UNE SALLE",
+    "room_code_label": "VOTRE CODE DE SALLE",
+    "in_progress": "JEU EN COURS",
+    "starting": "Démarrage...",
+    "start_game": "DÉMARRER LE JEU !",
+    "waiting_for_players": "En attente de joueurs pour pouvoir démarrer...",
+    "table": "TABLE",
+    "waiting": "En attente de joueurs...",
+    "pin_subtitle": "Accès Superviseur",
+    "pin_placeholder": "Entrez le PIN",
+    "pin_submit": "CONFIRMER",
+    "pin_invalid": "PIN incorrect. Veuillez réessayer.",
+    "pin_error_generic": "Une erreur s'est produite. Veuillez réessayer.",
+    "close_room_button" : "fermer la pièce"
+  },
+  "phases": {
+    "offline": "Hors ligne",
+    "waiting": "Salle d'attente",
+    "student": "Période étudiant",
+    "first_work": "Première période active",
+    "second_work": "Deuxième Phase de Travail",
+    "playing": "En jeu"
+  },
+  "waiting_room": {
+    "title": "Salle d'attente",
+    "message": "Vous avez rejoint la salle avec succès :",
+    "waiting_for_start": "En attente du démarrage par l'enseignant...",
+    "leave_button": "QUITTER LA TABLE"
+  },
+  "character_discovery": {
+    "loading": "Les cartes sont en train d'être mélangées...",
+    "title": "Choisissez votre carte",
+    "subtitle": "Quel rôle allez-vous jouer à cette table ?",
+    "continue": "Continuer vers votre fiche étudiant"
+  },
+  "general": {
+    "loading": "Chargement des données...",
+    "no_role": "Aucun rôle trouvé",
+    "save_error": "Une erreur s'est produite lors de la sauvegarde de vos choix. Veuillez réessayer.",
+    "dev_saved": "Données sauvegardées ! Ouvrez votre console (F12) pour voir le JSON généré."
+  },
+  "job_wheel": {
+    "discover_job": "Il est temps de découvrir quel métier vous allez exercer !",
+    "spinning": "EN TRAIN DE TOURNER...",
+    "spin": "FAITES TOURNER LA ROUE !",
+    "congrats": "Félicitations, voici votre métier !",
+    "accept": "Accepter & Continuer"
+  },
+  "partner_wheel": {
+    "possible_partners": "Partenaires potentiels",
+    "discover_partner": "Il est temps de découvrir si vous allez avoir un partenaire ou non!",
+    "congrats": "Voici la situation financière de votre partenaire.",
+    "no_partner": "Vous n'avez pas de partenaire.",
+    "firstphase": "Vous n'avez pas encore de partenaire et/ou des enfants."
+  },
+  "children_wheel": {
+    "possible_children": "Familles potentiels",
+    "discover_children": "Il est temps de découvrir combien d'enfants vous allez avoir!",
+    "congrats": "Félicitations, voici votre famille!"
+  },
+  "navigation_blocked": {
+    "title": "Vous ne pouvez pas reculer !",
+    "message": "Quitter cette page interromprait votre partie. Utilisez le bouton Quitter si vous souhaitez sortir correctement.",
+    "dismiss": "Compris"
+  }
+}

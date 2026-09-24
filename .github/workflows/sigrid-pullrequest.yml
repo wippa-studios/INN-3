@@ -1,0 +1,51 @@
+name: Sigrid pull request feedback
+
+on: [pull_request]
+
+jobs:
+  sigridci:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    env:
+      SIGRID_CI_TOKEN: ${{ secrets.SIGRID_CI_TOKEN }}
+    steps:
+      - name: Check Sigrid token
+        id: token
+        run: |
+          if [ -z "${SIGRID_CI_TOKEN}" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::SIGRID_CI_TOKEN is not configured. Add it under Settings → Secrets and variables → Actions, then re-run this workflow."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out repository
+        if: steps.token.outputs.configured == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine Sigrid system name
+        if: steps.token.outputs.configured == 'true'
+        id: sigrid
+        run: echo "system=$(echo '${{ github.event.repository.name }}' | tr '[:upper:]' '[:lower:]')" >> "$GITHUB_OUTPUT"
+
+      - name: Sigrid CI
+        if: steps.token.outputs.configured == 'true'
+        uses: Software-Improvement-Group/sigridci@main
+        with:
+          customer: hogent
+          system: ${{ steps.sigrid.outputs.system }}
+        env:
+          SIGRID_CI_TOKEN: ${{ secrets.SIGRID_CI_TOKEN }}
+          SIGRIDCI_GITHUB_COMMENT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save Sigrid CI results
+        if: always() && steps.token.outputs.configured == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          path: sigrid-ci-output/**
+          retention-days: 7
+          if-no-files-found: ignore

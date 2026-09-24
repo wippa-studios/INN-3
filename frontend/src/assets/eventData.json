@@ -1,0 +1,263 @@
+[
+  {
+    "id": "second_car",
+    "titleKey": "events.second_car.title",
+    "descriptionKey": "events.second_car.description",
+    "imageName": "car.png",
+    "type": "Fixed",
+    "options": [
+      { "conditionId": "default", "labelKey": "events.second_car.options.default.label", "valueKey": "events.second_car.options.default.value", "amount": -15000 }
+    ]
+  },
+  {
+    "id": "divorce",
+    "titleKey": "events.divorce.title",
+    "descriptionKey": "events.divorce.description",
+    "imageName": "divorce.png",
+    "type": "Fixed",
+    "options": [
+      { "conditionId": "has_partner", "labelKey": "events.divorce.options.has_partner.label", "valueKey": "events.divorce.options.has_partner.value", "amount": 0 }
+    ]
+  },
+  {
+    "id": "car_accident_parked",
+    "titleKey": "events.car_accident_parked.title",
+    "descriptionKey": "events.car_accident_parked.description",
+    "imageName": "caraccident.png",
+    "type": "InsuranceCheck",
+    "requiredInsurance": "auto_insurance",
+    "options": [
+      { "conditionId": "CL", "labelKey": "events.common.insurance_cl", "valueKey": "events.car_accident_parked.options.cl.value", "amount": -5000 },
+      { "conditionId": "CL_COMPREHENSIVE", "labelKey": "events.common.insurance_cl_comprehensive", "valueKey": "events.car_accident_parked.options.cl.value", "amount": -5000 },
+      { "conditionId": "CL_FULL", "labelKey": "events.common.insurance_cl_full", "valueKey": "events.common.franchise", "usesFranchise": true }
+    ]
+  },
+  {
+    "id": "car_accident_hail",
+    "titleKey": "events.car_accident_hail.title",
+    "descriptionKey": "events.car_accident_hail.description",
+    "imageName": "caraccident.png",
+    "type": "InsuranceCheck",
+    "requiredInsurance": "auto_insurance",
+    "options": [
+      { "conditionId": "CL", "labelKey": "events.common.insurance_cl", "valueKey": "events.car_accident_hail.options.cl.value", "amount": -3500 },
+      { "conditionId": "CL_COMPREHENSIVE", "labelKey": "events.common.insurance_cl_comprehensive", "valueKey": "events.common.franchise", "usesFranchise": true },
+      { "conditionId": "CL_FULL", "labelKey": "events.common.insurance_cl_full", "valueKey": "events.common.franchise", "usesFranchise": true }
+    ]
+  },
+  {
+    "id": "car_accident_traffic_jam",
+    "titleKey": "events.car_accident_traffic_jam.title",
+    "descriptionKey": "events.car_accident_traffic_jam.description",
+    "imageName": "caraccident.png",
+    "type": "InsuranceCheck",
+    "requiredInsurance": "auto_insurance",
+    "options": [
+      { "conditionId": "CL", "labelKey": "events.common.insurance_cl", "valueKey": "events.car_accident_traffic_jam.options.cl.value", "amount": -7500 },
+      { "conditionId": "CL_COMPREHENSIVE", "labelKey": "events.common.insurance_cl_comprehensive", "valueKey": "events.car_accident_traffic_jam.options.cl.value", "amount": -3500 },
+      { "conditionId": "CL_FULL", "labelKey": "events.common.insurance_cl_full", "valueKey": "events.common.franchise", "usesFranchise": true },
+      { "conditionId": "ACCIDENT", "labelKey": "events.common.insurance_accident", "valueKey": "events.common.franchise", "usesFranchise": true }
+    ]
+  },
+  {
+    "id": "inheritance",
+    "titleKey": "events.inheritance.title",
+    "descriptionKey": "events.inheritance.description",
+    "imageName": "inheritance.png",
+    "type": "DiceRoll",
+    "relatedSkill": "time_with_family",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.common.dice_1_2", "valueKey": "events.inheritance.options.dice_1_2.value", "amount": 10000 },
+      { "conditionId": "3-4", "labelKey": "events.common.dice_3_4", "valueKey": "events.inheritance.options.dice_3_4.value", "amount": 25000 },
+      { "conditionId": "5-6", "labelKey": "events.common.dice_5_6", "valueKey": "events.inheritance.options.dice_5_6.value", "amount": 40000 }
+    ]
+  },
+  {
+    "id": "house_on_fire",
+    "titleKey": "events.house_on_fire.title",
+    "descriptionKey": "events.house_on_fire.description",
+    "imageName": "houseonfire.png",
+    "type": "InsuranceCheck",
+    "requiredInsurance": "fire_insurance",
+    "options": [
+      { "conditionId": "YES", "labelKey": "events.common.yes", "valueKey": "events.common.franchise", "usesFranchise": true },
+      { "conditionId": "NO", "labelKey": "events.common.no", "valueKey": "events.house_on_fire.options.no.value", "amount": -250000 }
+    ]
+  },
+  {
+    "id": "storm_damage_trampoline",
+    "titleKey": "events.storm_damage_trampoline.title",
+    "descriptionKey": "events.storm_damage_trampoline.description",
+    "imageName": "stormdamage.png",
+    "type": "InsuranceCheck",
+    "requiredInsurance": "family_insurance",
+    "options": [
+      { "conditionId": "YES", "labelKey": "events.common.yes", "valueKey": "events.common.franchise", "usesFranchise": true },
+      { "conditionId": "NO", "labelKey": "events.common.no", "valueKey": "events.storm_damage_trampoline.options.no.value", "amount": -5000 }
+    ]
+  },
+  {
+    "id": "storm_damage_roof",
+    "titleKey": "events.storm_damage_roof.title",
+    "descriptionKey": "events.storm_damage_roof.description",
+    "imageName": "stormdamage.png",
+    "type": "InsuranceCheck",
+    "requiredInsurance": "fire_insurance",
+    "options": [
+      { "conditionId": "YES", "labelKey": "events.common.yes", "valueKey": "events.common.franchise", "usesFranchise": true },
+      { "conditionId": "NO", "labelKey": "events.common.no", "valueKey": "events.storm_damage_roof.options.no.value", "amount": -5000 }
+    ]
+  },
+  {
+    "id": "dismissal",
+    "titleKey": "events.dismissal.title",
+    "descriptionKey": "events.dismissal.description",
+    "imageName": "jobloss.png",
+    "type": "CircleCount",
+    "relatedSkill": "education_and_training",
+    "options": [
+      { "conditionId": "0", "labelKey": "events.common.circles_0", "valueKey": "events.dismissal.options.circles_0.value", "amount": -10000 },
+      { "conditionId": "1", "labelKey": "events.common.circles_1", "valueKey": "events.dismissal.options.circles_1.value", "amount": -7500 },
+      { "conditionId": "2", "labelKey": "events.common.circles_2", "valueKey": "events.dismissal.options.circles_2.value", "amount": -5000 },
+      { "conditionId": "3", "labelKey": "events.common.circles_3", "valueKey": "events.dismissal.options.circles_3.value", "amount": -2500 }
+    ]
+  },
+  {
+    "id": "promotion",
+    "titleKey": "events.promotion.title",
+    "descriptionKey": "events.promotion.description",
+    "imageName": "promotion.png",
+    "type": "CircleCount",
+    "relatedSkill": "education_and_training",
+    "options": [
+      { "conditionId": "0", "labelKey": "events.common.circles_0", "valueKey": "events.promotion.options.circles_0.value", "amount": 0 },
+      { "conditionId": "1", "labelKey": "events.common.circles_1", "valueKey": "events.promotion.options.circles_1.value", "amount": 5000 },
+      { "conditionId": "2", "labelKey": "events.common.circles_2", "valueKey": "events.promotion.options.circles_2.value", "amount": 7500 },
+      { "conditionId": "3", "labelKey": "events.common.circles_3", "valueKey": "events.promotion.options.circles_3.value", "amount": 10000 }
+    ]
+  },
+  {
+    "id": "new_job",
+    "titleKey": "events.new_job.title",
+    "descriptionKey": "events.new_job.description",
+    "imageName": "newjob.png",
+    "type": "DiceRoll",
+    "relatedSkill": "education_and_training",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.common.dice_1_2", "valueKey": "events.new_job.options.dice_1_2.value", "amount": 3000 },
+      { "conditionId": "3-4", "labelKey": "events.common.dice_3_4", "valueKey": "events.new_job.options.dice_3_4.value", "amount": 7000 },
+      { "conditionId": "5-6", "labelKey": "events.common.dice_5_6", "valueKey": "events.new_job.options.dice_5_6.value", "amount": 15000 }
+    ]
+  },
+  {
+    "id": "illness_work",
+    "titleKey": "events.illness_work.title",
+    "descriptionKey": "events.illness_work.description",
+    "imageName": "illness.png",
+    "type": "Fixed",
+    "options": [
+      { "conditionId": "employee", "labelKey": "events.illness_work.options.employee.label", "valueKey": "events.illness_work.options.employee.value", "amount": 0 },
+      { "conditionId": "self_employed", "labelKey": "events.illness_work.options.self_employed.label", "valueKey": "events.illness_work.options.self_employed.value", "amount": -7500 }
+    ]
+  },
+  {
+    "id": "financial_support",
+    "titleKey": "events.financial_support.title",
+    "descriptionKey": "events.financial_support.description",
+    "imageName": "financialsupport.png",
+    "type": "DiceRoll",
+    "relatedSkill": "time_with_family",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.common.dice_1_2", "valueKey": "events.financial_support.options.dice_1_2.value", "amount": 10000 },
+      { "conditionId": "3-4", "labelKey": "events.common.dice_3_4", "valueKey": "events.financial_support.options.dice_3_4.value", "amount": 25000 },
+      { "conditionId": "5-6", "labelKey": "events.common.dice_5_6", "valueKey": "events.financial_support.options.dice_5_6.value", "amount": 50000 }
+    ]
+  },
+  {
+    "id": "holiday",
+    "titleKey": "events.holiday.title",
+    "descriptionKey": "events.holiday.description",
+    "imageName": "onholiday.png",
+    "type": "DiceRoll",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.holiday.options.own_country.label", "valueKey": "events.holiday.options.own_country.value", "amount": -500, "multiplier": "family_members" },
+      { "conditionId": "3-4", "labelKey": "events.holiday.options.neighbouring_country.label", "valueKey": "events.holiday.options.neighbouring_country.value", "amount": -1500, "multiplier": "family_members" },
+      { "conditionId": "5-6", "labelKey": "events.holiday.options.further_afield.label", "valueKey": "events.holiday.options.further_afield.value", "amount": -5000, "multiplier": "family_members" }
+    ]
+  },
+  {
+    "id": "leaking_roof",
+    "titleKey": "events.leaking_roof.title",
+    "descriptionKey": "events.leaking_roof.description",
+    "imageName": "leakingroof.png",
+    "type": "Fixed",
+    "options": [
+      { "conditionId": "owner", "labelKey": "events.leaking_roof.options.owner.label", "valueKey": "events.leaking_roof.options.owner.value", "amount": -10000 },
+      { "conditionId": "tenant", "labelKey": "events.leaking_roof.options.tenant.label", "valueKey": "events.leaking_roof.options.tenant.value", "amount": 0 }
+    ]
+  },
+  {
+    "id": "illness_dice",
+    "titleKey": "events.illness_dice.title",
+    "descriptionKey": "events.illness_dice.description",
+    "imageName": "illness.png",
+    "type": "DiceRoll",
+    "relatedSkill": "healthy_living",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.common.dice_1_2", "valueKey": "events.illness_dice.options.dice_1_2.value", "amount": -5000 },
+      { "conditionId": "3-4", "labelKey": "events.common.dice_3_4", "valueKey": "events.illness_dice.options.dice_3_4.value", "amount": -10000 },
+      { "conditionId": "5-6", "labelKey": "events.common.dice_5_6", "valueKey": "events.illness_dice.options.dice_5_6.value", "amount": -20000 }
+    ]
+  },
+  {
+    "id": "hospital_treatment",
+    "titleKey": "events.hospital_treatment.title",
+    "descriptionKey": "events.hospital_treatment.description",
+    "imageName": "hospitaltreatment.png",
+    "type": "InsuranceCheck",
+    "requiredInsurance": "hospitalization_insurance",
+    "options": [
+      { "conditionId": "YES", "labelKey": "events.common.yes", "valueKey": "events.common.franchise", "usesFranchise": true },
+      { "conditionId": "NO", "labelKey": "events.common.no", "valueKey": "events.hospital_treatment.options.no.value", "amount": -2000 }
+    ]
+  },
+  {
+    "id": "housing_costs_1",
+    "titleKey": "events.housing_costs.title",
+    "descriptionKey": "events.housing_costs.description",
+    "imageName": "housingcosts.png",
+    "type": "DiceRoll",
+    "relatedSkill": "social_life_or_volunteer",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.common.dice_1_2", "valueKey": "events.housing_costs.options.low_1_2.value", "amount": -3000 },
+      { "conditionId": "3-4", "labelKey": "events.common.dice_3_4", "valueKey": "events.housing_costs.options.low_3_4.value", "amount": -8000 },
+      { "conditionId": "5-6", "labelKey": "events.common.dice_5_6", "valueKey": "events.housing_costs.options.low_5_6.value", "amount": -15000 }
+    ]
+  },
+  {
+    "id": "housing_costs_2",
+    "titleKey": "events.housing_costs.title",
+    "descriptionKey": "events.housing_costs.description",
+    "imageName": "housingcosts.png",
+    "type": "DiceRoll",
+    "relatedSkill": "social_life_or_volunteer",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.common.dice_1_2", "valueKey": "events.housing_costs.options.high_1_2.value", "amount": -5000 },
+      { "conditionId": "3-4", "labelKey": "events.common.dice_3_4", "valueKey": "events.housing_costs.options.high_3_4.value", "amount": -15000 },
+      { "conditionId": "5-6", "labelKey": "events.common.dice_5_6", "valueKey": "events.housing_costs.options.high_5_6.value", "amount": -25000 }
+    ]
+  },
+  {
+    "id": "depression",
+    "titleKey": "events.depression.title",
+    "descriptionKey": "events.depression.description",
+    "imageName": "illness.png",
+    "type": "DiceRoll",
+    "relatedSkill": "healthy_living_or_social_life",
+    "options": [
+      { "conditionId": "1-2", "labelKey": "events.common.dice_1_2", "valueKey": "events.depression.options.dice_1_2.value", "amount": 0 },
+      { "conditionId": "3-4", "labelKey": "events.common.dice_3_4", "valueKey": "events.depression.options.dice_3_4.value", "amount": -2500 },
+      { "conditionId": "5-6", "labelKey": "events.common.dice_5_6", "valueKey": "events.depression.options.dice_5_6.value", "amount": -5000 }
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+.card-container {
+  background-color: #f1f6ec;
+  width: 100%;
+  max-width: 100%;
+  min-height: fit-content;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-header {
+  background-color: #a4c478;
+  /* Donkergroene titelbalk */
+  text-align: center;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.personage-title {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 20px 20px 10px;
+  text-transform: uppercase;
+}
+
+/*  De Grid Layout (3 kolommen)  */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  /* De witte lijnen tussen de vakken */
+  background-color: white;
+  /* Creëert de borders */
+  border-top: 2px solid white;
+}
+
+.grid-item {
+  background-color: #f1f6ec;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* De introtekst neemt de ruimte in van 2 kolommen */
+.intro-block {
+  grid-column: span 2;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #f1f6ec;
+  padding: 20px;
+  white-space: pre-line;
+}
+
+/*  Categorie & Tekst Styling  */
+.category-block h3 {
+  font-size: 13px;
+  text-align: center;
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+}
+
+.category-block p {
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0 auto 15px auto;
+  white-space: pre-line;
+  flex-grow: 1;
+  text-align: left;
+  display: block;
+  width: 80%;
+}
+
+/*  Bolletjes (Kruisjes) */
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+  gap: 15px;
+  margin-top: auto;
+}
+
+.circle-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #a4c478;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #8cc63f;
+
+  transition: transform 0.1s;
+}
+
+.circle-btn:active {
+  transform: scale(0.9);
+}
+
+/* Een vooraf ingevuld bol*/
+.circle-btn:disabled {
+  cursor: default;
+  color: #a4c478;
+}
+
+/*Bedragen boven de bollen*/
+.slot-values {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.slot-values span {
+  width: 35px;
+  text-align: center;
+}
+
+/*  De Volgende Knop  */
+.action-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px 20px 0;
+}
+
+.next-button {
+  background-color: #8cc63f;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
+}
+
+.next-button:hover {
+  background-color: #7ab32e;
+}
+
+.next-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling voor een uitgeschakelde knop */
+.next-button.disabled-btn {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}

@@ -1,0 +1,209 @@
+{
+  "housing": {
+    "title": "Logement",
+    "subtitle": "Données financières à prendre en compte en fonction de vos choix.",
+    "rent": {
+      "title": "Logement - Location",
+      "headers": {
+        "choice": "Type de logement (Vous n'êtes pas propriétaire)",
+        "monthly": "Loyer Mensuel",
+        "space": "Taille",
+        "mobility": "Conséquence Mobilité"
+      },
+      "options": {
+        "stay_home": "Rester chez parents",
+        "rent_shared_5y": "5 ans chez parents, 5 ans en colocation",
+        "rent_shared": "Appartement en colocation",
+        "rent_apt_city": "Appartement en ville",
+        "rent_social": "Logement social * (Condition à vérifier à chaque phase)",
+        "rent_house_country": "Maison à la campagne"
+      },
+      "social_housing_conditions": {
+        "title": "* Vérifiez si vous remplissez les conditions pour pouvoir bénéficier d'un logement social",
+        "text": "Salaire mensuel net - (nombre d'enfants x {{childDeduction}}) < {{maxIncome}}",
+        "example": "Par exemple : Mère célibataire avec {{exampleChildren}} enfants, salaire net {{exampleIncome}}/mois. {{exampleIncome}} - ({{exampleChildren}} x {{childDeduction}}) < {{maxIncome}} → droit au logement social"
+      }
+    },
+    "buy": {
+      "title": "Logement - Achat",
+      "headers": {
+        "choice": "Type de logement (Propriétaire)",
+        "price": "Prix d'achat",
+        "max_loan": "Emprunt max. (80%)",
+        "one_time": "Frais ponctuels à l'achat",
+        "start_budget": "Budget init. pour achat ***",
+        "monthly_loan": "Mensualité (20 ans / 2%) **",
+        "space": "Taille",
+        "mobility": "Conséq. Mobilité"
+      },
+      "options": {
+        "buy_apt_city": "Appartement en ville",
+        "buy_house_country": "Maison à la campagne",
+        "buy_villa_country": "Villa à la campagne"
+      },
+      "conditions": {
+        "title": "Conditions d'achat d'un bien immobilier",
+        "item_1": "** Consacrer maximum 40% du salaire au remboursement d'un emprunt. Emprunt = maximum 80% de la valeur du bien immobilier (= quotité).",
+        "item_2": "*** Les 20% restants et les frais ponctuels liés à l'achat et à l'emprunt doivent être financés avec votre propre argent.",
+        "item_3": "Prévoir une réserve d'argent sur votre compte d'épargne. (3 x le salaire mensuel par exemple)"
+      }
+    },
+    "space": {
+      "no_room": "Pas de place pour un partenaire ou des enfants",
+      "max_5": "max. 5 personnes",
+      "parents_1_child": "2 parents + 1 enfant",
+      "parents_2_children": "2 parents + 2 enfants",
+      "parents_3_children": "2 parents + 3 enfants",
+      "parents_unlimited_children": "2 parents + nombre illimité d'enfants"
+    },
+    "mobility": {
+      "own_choice": "Au choix",
+      "no_car": "Voiture superflue",
+      "need_car": "Voiture nécessaire"
+    }
+  },
+  "living_costs": {
+    "title": "Autres Dépenses Courantes",
+    "subtitle": "alimentation, santé, énergie, garde et éducation enfants",
+    "headers": {
+      "situation": "Situation familiale",
+      "no_children": "Pas d'enfants",
+      "one_child": "1 enfant",
+      "two_children": "2 enfants",
+      "three_children": "3 enfants"
+    },
+    "options": {
+      "other_single": "Sans partenaire",
+      "other_partner": "Avec partenaire"
+    }
+  },
+  "mobility": {
+    "title": "Mobilité",
+    "transport": {
+      "title": "Options de Transport",
+      "headers": {
+        "options": "Possibilités",
+        "purchase_price": "Prix d'achat",
+        "info": "Info suppl. / Conditions",
+        "monthly_purchase": "Achat sur base mensuelle",
+        "monthly_cost": "Frais mensuels (carburant, taxe, entretien...)"
+      },
+      "options": {
+        "bike": "Vélo ou Transports en Commun",
+        "small_car": "Petite Voiture",
+        "family_car": "Voiture Familiale",
+        "sports_car": "Voiture de Sport"
+      },
+      "info": {
+        "per_person": "Par personne",
+        "small_car": "4 places",
+        "family_car": "5 places",
+        "sports_car": "2 places"
+      }
+    },
+    "auto_insurance": {
+      "title": "Assurance Auto",
+      "options": {
+        "ba_mandatory": {
+          "name": "Assurance Responsabilité Civile Auto Obligatoire (R.C.)",
+          "desc": "Une assurance RC auto couvre les dommages matériels et corporels que vous pourriez causer à des tiers. Vous êtes obligé d'en souscrire un dès que votre véhicule circule sur la voie publique.",
+          "coverage": "Dommages corporels et matériels causés à des tiers|Dommages corporels aux passagers de votre propre véhicule|Vos propres dommages matériels et corporels ne sont pas couverts si vous êtes en tort"
+        },
+        "small_omnium": {
+          "name": "R.C. Obligatoire + Mini Omnium",
+          "desc": "Une mini omnium NE couvre PAS les dégâts à votre propre véhicule.",
+          "coverage": "Voir l'assurance RC|+ dégâts dus à une incendie, une tentative de vol, un bris de vitre, une collision avec un animal ou aux forces de la nature"
+        },
+        "large_omnium": {
+          "name": "R.C. Obligatoire + Full Omnium",
+          "desc": "Une full omnium couvre les dégâts à votre propre véhicule, même si vous avez un accident en tort.",
+          "coverage": "Voir la mini omnium|+ dégâts matériels à votre propre véhicule"
+        }
+      },
+      "labels": {
+        "franchise": "Franchise",
+        "yearly_cost": "Frais/an",
+        "monthly_cost": "Frais/mois petite voiture + voiture familiale",
+        "monthly_cost_sports": "Frais/mois voiture de sport",
+        "coverage": "Risques couverts"
+      }
+    }
+  },
+  "general_insurance": {
+    "title": "Assurances",
+    "labels": {
+      "cost": "Prime mensuelle",
+      "franchise": "Franchise",
+      "info": "Info",
+      "coverage": "Risques couverts"
+    },
+    "options": {
+      "fire": {
+        "name": "Assurance Incendie",
+        "info": "Une assurance incendie couvre la valeur de votre logement et des biens se trouvant à l'intérieur en cas notamment d'incendie, de tempête, d'inondation et de pression de la neige. Locataire : Non obligatoire mais souvent imposée dans le contrat de location. Propriétaire : Non obligatoire mais éventuellement imposée lors de la souscription d'un crédit hypothécaire.",
+"costs_explanation": "Locataire : Option 5/5 = {{tenantOption5}} € / Colocation = {{tenantShared}} € / App. en ville = {{tenantCityApt}} € / Maison = {{tenantHouse}} €|Propriétaire : Appartement = {{ownerApt}} € / Maison = {{ownerHouse}} €",
+        "coverage": "Dommages dus à un incendie, une explosion ou une implosion|Foudre|Dommages causés par la tempête et la grêle|Dommages causés par la fumée et la suie|Dommages dus au mazout|Dommages des eaux|Bris de vitres|..."
+      },
+      "family": {
+        "name": "R.C. Familiale",
+        "info": "Cette assurance prend en charge (une partie de) l'indemnisation que vous devez payer si vous causez un dommage à des tiers dans le cadre de votre vie privée. Il peut s'agir d'un dommage matériel, corporel ou autre. Cette assurance n'est pas obligatoire, mais elle est très utile.",
+        "costs_explanation": "{{standard}} (prix par famille)",
+        "coverage": "Couvre les dommages causés à des tiers dans le cadre de la vie privée|Toute personne faisant partie du ménage"
+      },
+      "hospitalization": {
+        "name": "Assurance Hospitalisation",
+        "info": "Cette assurance couvre les frais liés à une hospitalisation après intervention de la mutuelle ou de la Caisse Auxiliaire d'Assurance Maladie-Invalidité. La prime dépend avant tout de votre situation familiale et de votre âge. Financièrement parlant, mieux vaut en souscrire une lorsque l'on est jeune et en bonne santé.",
+        "costs_explanation": "Adulte : {{adult}}|Enfant : {{child}}",
+        "coverage": "Frais médicaux, frais de soins, frais d'examens, prix de la chambre, médicaments et matériel médical, tant en Belgique qu'à l'étranger|Frais ambulatoires avant et après une hospitalisation|Frais de soins à domicile après une hospitalisation ou frais de garde d'enfants|Frais de traitement de certaines maladies graves|Important : conditions dépendent du contrat!"
+      },
+      "accident": {
+        "name": "Assurance Accidents",
+        "info": "L'assurance accidents vous permet de recevoir une indemnisation si vous êtes victime d'un accident dans le cadre de la vie privée. Elle vient en supplément des remboursements prévus par votre mutuelle. Un accident est un évènement soudain et inattendu causant de l'extérieur des dommages corporels à l'assuré.",
+        "costs_explanation": "{{perPerson}} par personne",
+        "coverage": "Invalidité permanente ou décès = versement d'un capital ou d'une rente. Un capital est un versement unique d'une somme importante. Une rente est un versement périodique, par exemple mensuel, pendant une certaine période ou jusqu'à l'âge de la pension.|Invalidité temporaire = une rente.|Le remboursement des frais médicaux, y compris les frais de prothèses ou de transport à l'hôpital, les frais funéraires..."
+      }
+    },
+    "more_info": "Plus d'infos sur les assurances : www.wikifin.be"
+  },
+  "savings": {
+    "title": "Épargner et Investir",
+    "headers": {
+      "amount": "Montant",
+      "return": "Rendement",
+      "info": "Info suppl."
+    },
+    "options": {
+      "checking": {
+        "name": "Compte à vue",
+        "amount": "Le montant que vous n'avez pas déposé sur votre compte d'épargne ni investi dans un fonds de placement.",
+        "return": "Aucun",
+        "info": "Un compte à vue sert à effectuer vos transactions financières de tous les jours. Exemple : votre salaire est versé sur ce compte et vous l'utilisez pour payer vos courses."
+      },
+      "savings": {
+        "name": "Compte d'épargne",
+        "amount": "À vous d'en décider mais prenez un montant qui figure dans le tableau afin de pouvoir calculer facilement le rendement. Il est par ailleurs conseillé de conserver un coussin financier sur son compte d'épargne pour pouvoir faire face à des imprévus. Exemple : 3 x votre salaire mensuel net (+ celui de votre partenaire).",
+        "return": "Voir le tableau de rendement.",
+        "info": "Un compte d'épargne est un compte bancaire sur lequel vous versez de l'argent dont vous n'avez pas besoin dans l'immédiat. En échange du dépôt de vos économies, votre banque vous paie une rémunération : les intérêts. Ces intérêts incluent des intérêts de base et une prime de fidélité. Vous pouvez déposer ou retirer de l'argent à tout moment."
+      },
+      "investment": {
+        "name": "Fonds de placement",
+        "amount": "À vous d'en décider mais prenez un montant qui figure dans le tableau afin de pouvoir calculer facilement le rendement.",
+        "return": "Voir le tableau de rendement.",
+        "info": "Les fonds de placement regroupent l'épargne de nombreux investisseurs dans un seul et même pot dont des gestionnaires de fonds spécialisés se servent pour investir. Le grand avantage est que vous avez directement un portefeuille diversifié. Il existe différents profils de risque, tels que défensif (peu de risque), neutre (risque moyen) et dynamique (risque élevé). Selon votre profil, le fonds va investir votre argent dans des actifs sous-jacents tels que des actions, des obligations, de l'immobilier, des matières premières. Le fonds choisi devant correspondre à votre profil d'investisseur."
+      }
+    },
+    "more_info": "Plus d'infos sur les placements : www.wikifin.be",
+    "returns_overview": {
+      "title": "Aperçu des rendements sur 20 ans",
+      "headers": {
+        "principal": "Montant",
+        "inflation": "Impact inflation",
+        "savings": "1% épargne",
+        "conservative": "Conservateur (5%)",
+        "neutral": "Neutre (6%)",
+        "dynamic": "Dynamique (7%)"
+      },
+      "footnote": "Rendements nets sur 20 ans basés sur un dépôt unique. Profil neutre appliqué."
+    }
+  }
+}

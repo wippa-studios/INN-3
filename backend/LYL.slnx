@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Api/">
+    <Project Path="LYL.Api.Contracts/LYL.Api.Contracts.csproj" />
+    <Project Path="LYL.Api/LYL.Api.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="LYL.Domain.Model/LYL.Domain.Model.csproj" />
+    <Project Path="LYL.Domain.Services/LYL.Domain.Services.csproj" />
+  </Folder>
+  <Folder Name="/Persistence/">
+    <Project Path="LYL.Persistence.DataModel/LYL.Persistence.DataModel.csproj" />
+    <Project Path="LYL.Persistence/LYL.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/LYL.Domain.Test/LYL.Domain.Test.csproj" />
+    <Project Path="Tests/LYL.Persistence.Tests/LYL.Persistence.Tests.csproj" />
+  </Folder>
+</Solution>

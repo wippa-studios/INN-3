@@ -1,0 +1,213 @@
+{
+  "housing": {
+    "title": "Huisvesting",
+    "subtitle": "Dit zijn de financiële gegevens die je toepast afhankelijk van jouw keuzes.",
+    "rent": {
+      "title": "Huisvesting - Huren",
+      "headers": {
+        "choice": "Keuze Woning (Geen eigenaar)",
+        "monthly": "Maandelijkse Huur",
+        "space": "Ruimte",
+        "mobility": "Gevolg Mobiliteit"
+      },
+      "options": {
+        "stay_home": "Thuis blijven wonen",
+        "rent_shared_5y": "5 jaar thuis, 5 jaar huren met 3 anderen",
+        "rent_shared": "Huur appartement met 3 anderen",
+        "rent_apt_city": "Huur appartement stad",
+        "rent_social": "Huur sociale woning * (Voorwaarde in iedere fase herbekijken)",
+        "rent_house_country": "Huur woning platteland"
+      },
+      "social_housing_conditions": {
+        "title": "* Voorwaarde voor het huren van een sociale woning",
+"text": "Netto maandloon - (aantal kinderen x {{childDeduction}}) < {{maxIncome}}",
+"example": "Bijvoorbeeld: Alleenstaande moeder met {{exampleChildren}} kinderen, nettoloon {{exampleIncome}}/maand. {{exampleIncome}} - ({{exampleChildren}} x {{childDeduction}}) < {{maxIncome}} → recht op sociale woning"      }
+    },
+    "buy": {
+      "title": "Huisvesting - Kopen",
+      "headers": {
+        "choice": "Keuze Woning (Eigenaar)",
+        "price": "Aankoopprijs",
+        "max_loan": "Max Lening (= 80%)",
+        "one_time": "Eenmalige Kosten Aankoop",
+        "start_budget": "Startbudget om Onroerend Goed te Kopen ***",
+        "monthly_loan": "Maandelijks Leningsbedrag (Op 20 jaar / 2%) **",
+        "space": "Ruimte",
+        "mobility": "Gevolg Mobiliteit"
+      },
+      "options": {
+        "buy_apt_city": "Aankoop appartement stad",
+        "buy_house_country": "Aankoop vrijstaand huis platteland",
+        "buy_villa_country": "Aankoop villa platteland"
+      },
+      "conditions": {
+        "title": "Voorwaarden om onroerend goed te kopen",
+        "item_1": "** Maximum 40% van loon mag gebruikt worden om krediet terug te betalen. Je mag maximum 80% van de waarde van het onroerend goed lenen (=quotiteit). De quotiteit is de verhouding tussen het geleende bedrag en de waarde van de woning.",
+        "item_2": "*** De overige 20% + eenmalige kosten m.b.t. de aankoop en lening moet je uit eigen middelen kunnen betalen. Wil je een woning kopen, dan moet je dit bedrag al ter beschikking hebben.",
+        "item_3": "Buffer voorzien op spaarrekening is aan te raden (bv. 3 x maandloon)"
+      }
+    },
+    "space": {
+      "no_room": "Geen ruimte voor partner of kinderen",
+      "max_5": "Max. 5 personen",
+      "parents_1_child": "2 ouders + 1 kind",
+      "parents_2_children": "2 ouders + 2 kinderen",
+      "parents_3_children": "2 ouders + 3 kinderen",
+      "parents_unlimited_children": "2 ouders + onbeperkt aantal kinderen"
+    },
+    "mobility": {
+      "own_choice": "Eigen keuze",
+      "no_car": "Geen wagen nodig",
+      "need_car": "Wagen nodig"
+    }
+  },
+  "living_costs": {
+    "title": "Andere Leefkosten",
+    "subtitle": "= Voeding, gezondheid, energie, opvang en onderwijs kinderen ... rekening houdend met het groeipakket",
+    "headers": {
+      "situation": "Gezinssituatie",
+      "no_children": "Geen Kinderen",
+      "one_child": "1 Kind",
+      "two_children": "2 Kinderen",
+      "three_children": "3 Kinderen"
+    },
+    "options": {
+      "other_single": "Alleenstaand",
+      "other_partner": "Met partner"
+    }
+  },
+  "mobility": {
+    "title": "Mobiliteit",
+    "transport": {
+      "title": "Vervoersmiddelen",
+      "headers": {
+        "options": "Mogelijkheden",
+        "purchase_price": "Aankoopprijs vervoersmiddel",
+        "info": "Extra info / Voorwaarden",
+        "monthly_purchase": "Aankoop op maandbasis",
+        "monthly_cost": "Maandelijkse kost (Brandstof, verkeerstaks, onderhoud ...)"
+      },
+      "options": {
+        "bike": "(Elektrische) Fiets of Openbaar Vervoer",
+        "small_car": "Kleine Wagen",
+        "family_car": "Gezinswagen",
+        "sports_car": "Sportwagen"
+      },
+      "info": {
+        "per_person": "Per persoon",
+        "small_car": "4 volwaardige zitplaatsen",
+        "family_car": "5 volwaardige zitplaatsen",
+        "sports_car": "2 zitplaatsen"
+      }
+    },
+    "auto_insurance": {
+      "title": "Autoverzekering",
+      "options": {
+        "ba_mandatory": {
+          "name": "Wettelijk Verplichte Burgerlijke Aansprakelijkheidsverzekering",
+          "desc": "Een verzekering BA Auto dekt de materiële en lichamelijke schade die bij een ongeval met je wagen veroorzaakt wordt aan derden. Je bent verplicht er een af te sluiten van zodra je wagen op de openbare weg komt.",
+          "coverage": "Lichamelijke als materiële schade aan derden|Lichamelijke schade aan inzittenden in eigen wagen|Eigen materiële en lichamelijke schade wordt niet gedekt indien je aansprakelijk bent"
+
+        },
+        "small_omnium": {
+          "name": "Verplichte BA + Kleine Omnium",
+          "desc": "Een kleine omniumverzekering dekt NIET de schade aan je eigen wagen.",
+          "coverage": "Zie BA-verzekering|+ schade als gevolg van brand, diefstal, glasbreuk, aanrijding door wild en stormschade"
+        },
+        "large_omnium": {
+          "name": "Verplichte BA + Grote Omnium",
+          "desc": "Een omniumverzekering dekt de schade aan je eigen wagen, zelfs als je een ongeval in fout veroorzaakt.",
+          "coverage": "Zie kleine omnium|+ ook materiële schade aan eigen wagen"
+        }
+      },
+"labels": {
+  "franchise": "Franchise",
+  "yearly_cost": "Kost/jaar",
+  "monthly_cost": "Kost/maand kleine wagen/gezinswagen",
+  "monthly_cost_sports": "Kost/maand sportwagen",
+  "coverage": "Dekking"
+}
+    }
+  },
+  "general_insurance": {
+    "title": "Verzekeringen",
+    "labels": {
+      "cost": "Kost per maand",
+      "franchise": "Franchise",
+      "info": "Info",
+      "coverage": "Dekking"
+    },
+    "options": {
+      "fire": {
+        "name": "Brandverzekering",
+        "info": "De brandverzekering beschermt de waarde van je huis en je inboedel tegen onder meer de gevolgen van brand, storm, overstroming en sneeuwdruk. Huurder: Niet wettelijk verplicht, wel vaak contractueel verplicht bij huurovereenkomst. Eigenaar: Niet wettelijk verplicht, wel mogelijks contractueel verplicht bij aangaan hypothecair krediet.",
+          "costs_explanation": "Huurder: Optie 5/5 = {{tenantOption5}} / appartement met 3 andere = {{tenantShared}} / stad = {{tenantCityApt}} / Woning = {{tenantHouse}}|Eigenaar: app = {{ownerApt}} / huis = {{ownerHouse}}",
+        "coverage": "Schade door brand, explosie of implosie|Inslag door bliksem|Storm- en hagelschade|Rook- en roetschade|Stookolieschade|Waterschade|Glasbreuk|..."
+
+      },
+      "family": {
+        "name": "Familiale Verzekering",
+        "info": "Deze verzekering neemt (een deel van) de vergoeding op zich die je moet betalen als je in je privéleven schade veroorzaakt aan derden. Die schade kan zowel van materiële, lichamelijke als andere aard zijn. Deze verzekering is niet wettelijk verplicht en niet duur, maar wel zeer nuttig.",
+        "costs_explanation": "{{standard}}",
+        "coverage": "Dekt schade die in het privéleven aan derden wordt toegebracht|Iedereen die deel uitmaakt van het gezin"
+
+      },
+      "hospitalization": {
+        "name": "Hospitalisatieverzekering",
+        "info": "De verzekering betaalt je medische kosten na een hospitalisatie terug na tussenkomst van de mutualiteit of de Hulpkas voor ziekte- en invaliditeitsverzekering. Het is voornamelijk de gezinstoestand en de leeftijd die de kost bepalen. Voordeligst is dat je de verzekering afsluit als je jong bent en niet ziek bent.",
+        "costs_explanation": "Volwassene: {{adult}}|Kind: {{child}}",
+        "coverage": "Doktersrekeningen, kosten voor medische verzorging, kosten voor onderzoeken, kamerprijs, uitgaven voor geneesmiddelen en medisch materiaal en dat zowel in België als in het buitenland|Ambulante kosten voor en na een opname|Kosten voor thuisverpleging na een verblijf in het ziekenhuis of de kosten voor de opvang van je kinderen|Kosten voor de behandeling van een aantal ernstige ziekten|Belangrijk: voorwaarden afhankelijk van contract!"
+
+      },
+      "accident": {
+        "name": "Ongevallenverzekering",
+        "info": "Via een verzekering 'lichamelijke ongevallen' kan je een schadevergoeding krijgen als je het slachtoffer wordt van een ongeval. Ze komt bovenop de terugbetalingen van je mutualiteit. Een ongeval is een plotseling, onverwacht voorval dat van buiten inwerkt op het lichaam van de verzekerde.",
+        "costs_explanation": "{{perPerson}}",
+        "coverage": "Blijvende invaliditeit of overlijden = uitkering van een kapitaal of een rente. Bij een kapitaal is er een eenmalige uitbetaling van een belangrijke som. Bij een rente gaat het om een periodieke uitbetaling, bijvoorbeeld maandelijks, gedurende een bepaalde periode of tot de pensioenleeftijd.|Tijdelijke invaliditeit = een rente.|De terugbaling van medische kosten, met inbegrip van kosten voor protheses of vervoer naar het ziekenhuis, uitvaartkosten ..."
+
+      }
+    },
+    "more_info": "Voor meer info over verzekeringen kan je surfen naar www.wikifin.be"
+  },
+  "savings": {
+    "title": "Sparen en Beleggen",
+    "headers": {
+      "amount": "Bedrag",
+      "return": "Opbrengst",
+      "info": "Extra Info"
+    },
+    "options": {
+      "checking": {
+        "name": "Zichtrekening",
+        "amount": "Dit is het resterende bedrag dat je niet op een spaarrekening parkeert of belegt in een beleggingsfonds.",
+        "return": "Geen",
+        "info": "Een zichtrekening dient om je dagelijkse financiële verrichtingen te doen. Vb. je loon wordt erop gestort en je gebruikt ze voor het betalen van je aankopen."
+      },
+      "savings": {
+        "name": "Spaarrekening",
+        "amount": "Zelf te bepalen, maar neem een bedrag dat opgenomen is in de matrix zodat je makkelijk de opbrengst kan bepalen. Daarnaast is het aan te raden om een buffer aan te houden op de spaarrekening voor onverwachte gebeurtenissen, bv. 3 x netto maandloon jezelf (+ partner).",
+        "return": "Zie matrix beleggingsopbrengst",
+        "info": "Een spaarrekening is een rekening bij een bank waarop je geld zet dat je niet meteen nodig hebt. In ruil voor de bewaring van je spaargeld zal de bank je een vergoeding betalen: de rente. Deze rente bestaat uit een basisrente en een getrouwheidspremie. Je kan op elk ogenblik geld bijstorten en afhalen."
+      },
+      "investment": {
+        "name": "Beleggingsfonds",
+        "amount": "Zelf te bepalen, maar neem een bedrag dat opgenomen is in de matrix zodat je makkelijk de opbrengst kan bepalen.",
+        "return": "Zie matrix beleggingsopbrengst",
+        "info": "Beleggingsfondsen brengen het spaargeld van verschillende beleggers samen in één grote pot, waarmee de gespecialiseerde fondsbeheerders beleggen. Grote voordeel is dat je als belegger meteen een gediversifieerde beleggingsportefeuille hebt. Er zijn verschillende risicoprofielen mogelijk: vb. defensief (weinig risico), neutraal (gemiddeld risico) en agressief (veel risico). Afhankelijk van het profiel zal het fonds jouw geld beleggen in onderliggende producten zoals aandelen, obligaties, vastgoed, grondstoffen. Het gekozen fonds moet overeenstemmen met jouw beleggersprofiel."
+      }
+    },
+    "more_info": "Voor meer info over sparen en beleggen kan je surfen naar www.wikifin.be",
+    "returns_overview": {
+      "title": "Beleggingsmatrix op 20 jaar",
+      "headers": {
+        "principal": "Inleg",
+        "inflation": "Inflatieverlies",
+        "savings": "1% spaarrekening",
+        "conservative": "Conservatief (5%)",
+        "neutral": "Neutraal (6%)",
+        "dynamic": "Dynamisch (7%)"
+      },
+      "footnote": "Opbrengsten zijn netto over 20 jaar op basis van een éénmalige inleg. Neutraal profiel wordt toegepast."
+    }
+  }
+}

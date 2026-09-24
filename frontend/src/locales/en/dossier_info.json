@@ -1,0 +1,209 @@
+{
+  "housing": {
+    "title": "Housing",
+    "subtitle": "This file contains the financial data to apply depending on your choices.",
+    "rent": {
+      "title": "Housing - Rent",
+      "headers": {
+        "choice": "Choice of Home (You are not the owner)",
+        "monthly": "Monthly Rent",
+        "space": "Maximum Space",
+        "mobility": "Impact on Transport"
+      },
+      "options": {
+        "stay_home": "Continue to live at home",
+        "rent_shared_5y": "5 years at home, 5 years renting with 3 others",
+        "rent_shared": "Rent a flat with 3 others",
+        "rent_apt_city": "Rent a flat in the city",
+        "rent_social": "Rent social housing * (Condition to be reviewed each phase)",
+        "rent_house_country": "Rent home in the countryside"
+      },
+      "social_housing_conditions": {
+        "title": "* Condition for renting social housing",
+        "text": "Net monthly salary - (number of children x {{childDeduction}}) < {{maxIncome}}",
+        "example": "For example: Single mother with {{exampleChildren}} children, net salary {{exampleIncome}}/month. {{exampleIncome}} - ({{exampleChildren}} x {{childDeduction}}) < {{maxIncome}} → qualifies for social housing"
+      }
+    },
+    "buy": {
+      "title": "Housing - Buy",
+      "headers": {
+        "choice": "Choice of Home (Owner)",
+        "price": "Purchase Price",
+        "max_loan": "Maximum Loan (= 80%)",
+        "one_time": "One-Time Purchase Costs",
+        "start_budget": "Initial Budget to Buy Real Estate ***",
+        "monthly_loan": "Monthly Loan Amount (For 20 Years / 2%) **",
+        "space": "Maximum Space",
+        "mobility": "Impact on Transport"
+      },
+      "options": {
+        "buy_apt_city": "Buy a flat in the city",
+        "buy_house_country": "Buy a detached house in the countryside",
+        "buy_villa_country": "Buy an estate in the countryside"
+      },
+      "conditions": {
+        "title": "Conditions for buying real estate",
+        "item_1": "** Up to 40% of your salary may be used to repay the loan. You may borrow up to 80% of the value of the property (=loan-to-value ratio). The loan-to-value ratio is the ratio between the amount borrowed and the value of the property.",
+        "item_2": "*** You must be able to pay the remaining 20% + one-off costs associated with the purchase and loan from your own resources. If you want to buy a property, you must already have this amount available.",
+        "item_3": "It is advisable to keep a buffer in a savings account (e.g. 3 x monthly salary)"
+      }
+    },
+    "space": {
+      "no_room": "No room for partner or children",
+      "max_5": "Max. 5 persons",
+      "parents_1_child": "2 parents + 1 child",
+      "parents_2_children": "2 parents + 2 children",
+      "parents_3_children": "2 parents + 3 children",
+      "parents_unlimited_children": "2 parents + unlimited number of children"
+    },
+    "mobility": {
+      "own_choice": "Your choice",
+      "no_car": "No car required",
+      "need_car": "Car needed"
+    }
+  },
+  "living_costs": {
+    "title": "Other Living Expenses",
+    "subtitle": "= Nutrition, health, energy, care and education of children ... taking child allowance into account",
+    "headers": {
+      "situation": "Family Situation",
+      "no_children": "No Children",
+      "one_child": "1 Child",
+      "two_children": "2 Children",
+      "three_children": "3 Children"
+    },
+    "options": {
+      "other_single": "Single",
+      "other_partner": "With partner"
+    }
+  },
+  "mobility": {
+    "title": "Transport",
+    "transport": {
+      "title": "Transport Options",
+      "headers": {
+        "options": "Options",
+        "purchase_price": "Purchase price of means of transport",
+        "info": "Additional info / conditions",
+        "monthly_purchase": "Monthly purchase amount",
+        "monthly_cost": "Monthly cost (Fuel, traffic tax, maintenance...)"
+      },
+      "options": {
+        "bike": "(Electric) Bicycle or Public Transport",
+        "small_car": "Small Car",
+        "family_car": "Family Car",
+        "sports_car": "Sports Car"
+      },
+      "info": {
+        "per_person": "Per person",
+        "small_car": "4 full seats",
+        "family_car": "5 full seats",
+        "sports_car": "2 seats"
+      }
+    },
+    "auto_insurance": {
+      "title": "Car Insurance",
+      "options": {
+        "ba_mandatory": {
+          "name": "Legally Required Civil Liability Insurance",
+          "desc": "Civil liability insurance covers material and physical damage caused to third parties in the event your car is involved in an accident. You are required to take out CL insurance as soon as your car goes on public roads.",
+          "coverage": "Physical and material damage to third parties|Physical damage to occupants of your own car|Your own material and physical damage is not covered if you are liable"
+        },
+        "small_omnium": {
+          "name": "Compulsory CL + Comprehensive Insurance",
+          "desc": "A comprehensive insurance policy does NOT cover damage to your own car.",
+          "coverage": "See civil liability insurance|+ damage as a result of fire, theft, glass breakage, collision with wildlife and storm damage"
+        },
+        "large_omnium": {
+          "name": "Compulsory CL + Full Coverage Insurance",
+          "desc": "Full coverage includes damage to your own car, even if the accident is your fault.",
+          "coverage": "See comprehensive insurance|+ also material damage to your own car"
+        }
+      },
+      "labels": {
+        "franchise": "Franchise",
+        "yearly_cost": "Cost/year",
+        "monthly_cost": "Cost/month small car + family car",
+        "monthly_cost_sports": "Cost/month sports car",
+        "coverage": "Coverage"
+      }
+    }
+  },
+  "general_insurance": {
+    "title": "Insurances",
+    "labels": {
+      "cost": "Cost per month",
+      "franchise": "Franchise",
+      "info": "Info",
+      "coverage": "Coverage"
+    },
+    "options": {
+      "fire": {
+        "name": "Fire Insurance",
+        "info": "Fire insurance protects the value of your home and contents against, among other things, the consequences of fire, storms, flooding and snow pressure. As a tenant: Not legally required, but often contractually obliged in the rental agreement. As an owner: Not legally required, but may be contractually required when taking out a mortgage.",
+"costs_explanation": "Tenant: Option 5/5 = {{tenantOption5}} / Shared flat = {{tenantShared}} / City = {{tenantCityApt}} / House = {{tenantHouse}}. Owner: Flat = {{ownerApt}} / House = {{ownerHouse}}",
+        "coverage": "Damage due to fire, explosion or implosion|Struck by lightning|Storm and hail damage|Smoke and soot damage|Fuel oil damage|Water damage|Glass breakage|..."
+      },
+      "family": {
+        "name": "Family Insurance",
+        "info": "This insurance covers (part of) the compensation you have to pay if you cause damage to third parties in your private life. This damage can be of a material, physical or other nature. This insurance is not legally required and not expensive, but it is very useful.",
+        "costs_explanation": "{{standard}}",
+        "coverage": "Covers damage caused to third parties in your private life|Everyone who is part of the family"
+      },
+      "hospitalization": {
+        "name": "Hospitalisation Insurance",
+        "info": "This insurance reimburses your medical costs associated with hospitalisation via the health insurance fund or the Auxiliary Fund for Health and Disability Insurance. The cost is mainly determined by age and your family situation. It is best to take out this insurance when you are young and healthy.",
+        "costs_explanation": "Adult: {{adult}}|Child: {{child}}",
+        "coverage": "Doctors' bills, costs for medical care, costs for examinations, payment for the room, expenses for medicines and medical equipment, both in Belgium and abroad|Outpatient costs before and after admission|Costs for home care after a stay in hospital or the costs of childcare for your children|Costs for the treatment of a number of serious illnesses|Important: conditions depend on the contract!"
+      },
+      "accident": {
+        "name": "Accident Insurance",
+        "info": "If you are the victim of an accident, you can receive compensation through physical accident insurance. This is in addition to the reimbursements from your health insurance fund. An accident is a sudden, unexpected event that has an external impact on the body of the person insured.",
+        "costs_explanation": "{{perPerson}}",
+        "coverage": "Permanent disability or death = payment of a capital or annuity. A capital is a one-off payment of a significant sum. An annuity is a periodic payment, for example monthly, for a certain period or until retirement age.|Temporary disability = an annuity.|The reimbursement of medical costs, including costs for prostheses or transport to hospital, funeral costs ..."
+      }
+    },
+    "more_info": "For more information on insurances, visit www.wikifin.be"
+  },
+  "savings": {
+    "title": "Savings and Investments",
+    "headers": {
+      "amount": "Amount",
+      "return": "Return",
+      "info": "Additional Info"
+    },
+    "options": {
+      "checking": {
+        "name": "Current Account",
+        "amount": "This is the remaining amount that you do not put in a savings account or invest in an investment fund.",
+        "return": "None",
+        "info": "A current account is used to carry out your daily financial transactions. E.g. your salary is deposited into this account and you use it to pay for the things you buy."
+      },
+      "savings": {
+        "name": "Savings Account",
+        "amount": "You can decide this yourself, but take an amount that is included in the overview of return on savings and investments. It is also advisable to keep a buffer in the savings account for unexpected events, e.g. 3x your (and your partner's) net monthly salary.",
+        "return": "See overview of return on savings and investments over 20 years",
+        "info": "A savings account is a bank account where you put money that you do not need immediately. In exchange for trusting the bank with your savings, the bank will pay you compensation: interest. This interest consists of a base interest rate and a loyalty bonus. You can deposit and withdraw money at any time."
+      },
+      "investment": {
+        "name": "Investment Fund",
+        "amount": "You can decide this yourself, but take an amount that is included in the overview of return on savings and investments.",
+        "return": "See overview of return on savings and investments over 20 years",
+        "info": "Investment funds bring together the savings of different investors into one big pot that the specialised fund managers then use to invest. The big advantage is that as an investor you immediately have a diversified investment portfolio. Different risk profiles are possible: e.g. conservative (little risk), moderate (medium risk) and aggressive (high risk). Depending on the profile, the fund will invest your money in underlying products such as shares, bonds, real estate, commodities, etc. The selected fund must match your investor profile."
+      }
+    },
+    "more_info": "For more information on savings and investments, visit www.wikifin.be",
+    "returns_overview": {
+      "title": "20-year return overview",
+      "headers": {
+        "principal": "Amount",
+        "inflation": "Inflation impact",
+        "savings": "1% savings",
+        "conservative": "Conservative (5%)",
+        "neutral": "Neutral (6%)",
+        "dynamic": "Dynamic (7%)"
+      },
+      "footnote": "Returns are net returns over 20 years based on a one-time deposit. Neutral profile is applied."
+    }
+  }
+}

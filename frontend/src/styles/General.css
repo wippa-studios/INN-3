@@ -1,0 +1,27 @@
+.h1 {
+  font-size: x-large;
+  color: #f08666;
+}
+
+.job-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #11b0a5;
+  color: white;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

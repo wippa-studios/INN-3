@@ -1,0 +1,46 @@
+{
+  "partners": [
+    {
+      "id": "partner1",
+      "wageKey": "",
+      "wage": 0,
+      "savingsKey": "",
+      "savings": 0
+    },
+    {
+      "id": "partner2",
+      "wageKey": "",
+      "wage": 1900,
+      "savingsKey": "",
+      "savings": 45000
+    },
+    {
+      "id": "partner3",
+      "wageKey": "",
+      "wage": 2250,
+      "savingsKey": "",
+      "savings": 70000
+    },
+    {
+      "id": "partner4",
+      "wageKey": "",
+      "wage": 2560,
+      "savingsKey": "",
+      "savings": 65000
+    },
+    {
+      "id": "partner5",
+      "wageKey": "",
+      "wage": 2720,
+      "savingsKey": "",
+      "savings": 75000
+    },
+    {
+      "id": "partner6",
+      "wageKey": "",
+      "wage": 2900,
+      "savingsKey": "",
+      "savings": 55000
+    }
+  ]
+}

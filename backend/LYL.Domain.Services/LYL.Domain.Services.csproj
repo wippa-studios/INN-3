@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LYL.Api.Contracts\LYL.Api.Contracts.csproj" />
+    <ProjectReference Include="..\LYL.Domain.Model\LYL.Domain.Model.csproj" />
+    <ProjectReference Include="..\LYL.Persistence\LYL.Persistence.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

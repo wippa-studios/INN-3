@@ -1,0 +1,299 @@
+{
+  "housing": {
+    "buy": {
+      "options": [
+        {
+          "id": "buy_apt_city",
+          "price": 250000,
+          "space": 3,
+          "maxLoan": 200000,
+          "nameKey": "housing.buy.options.buy_apt_city",
+          "needsCar": false,
+          "spaceKey": "housing.space.parents_1_child",
+          "mobilityKey": "housing.mobility.no_car",
+          "monthlyLoan": 1000,
+          "startBudget": 67000,
+          "oneTimeCosts": 17000
+        },
+        {
+          "id": "buy_house_country",
+          "price": 350000,
+          "space": 5,
+          "maxLoan": 280000,
+          "nameKey": "housing.buy.options.buy_house_country",
+          "needsCar": true,
+          "spaceKey": "housing.space.parents_3_children",
+          "mobilityKey": "housing.mobility.need_car",
+          "monthlyLoan": 1400,
+          "startBudget": 91000,
+          "oneTimeCosts": 21000
+        },
+        {
+          "id": "buy_villa_country",
+          "price": 500000,
+          "space": 5,
+          "maxLoan": 400000,
+          "nameKey": "housing.buy.options.buy_villa_country",
+          "needsCar": true,
+          "spaceKey": "housing.space.parents_unlimited_children",
+          "mobilityKey": "housing.mobility.need_car",
+          "monthlyLoan": 2000,
+          "startBudget": 128000,
+          "oneTimeCosts": 28000
+        }
+      ]
+    },
+    "rent": {
+      "options": [
+        {
+          "id": "stay_home",
+          "space": 1,
+          "monthly": 250,
+          "nameKey": "housing.rent.options.stay_home",
+          "needsCar": false,
+          "spaceKey": "housing.space.no_room",
+          "mobilityKey": "housing.mobility.own_choice"
+        },
+        {
+          "id": "rent_shared_5y",
+          "space": 1,
+          "monthly": 325,
+          "nameKey": "housing.rent.options.rent_shared_5y",
+          "needsCar": false,
+          "spaceKey": "housing.space.no_room",
+          "mobilityKey": "housing.mobility.own_choice"
+        },
+        {
+          "id": "rent_shared",
+          "space": 1,
+          "monthly": 450,
+          "nameKey": "housing.rent.options.rent_shared",
+          "needsCar": false,
+          "spaceKey": "housing.space.no_room",
+          "mobilityKey": "housing.mobility.own_choice"
+        },
+        {
+          "id": "rent_apt_city",
+          "space": 5,
+          "monthly": 900,
+          "nameKey": "housing.rent.options.rent_apt_city",
+          "needsCar": false,
+          "spaceKey": "housing.space.max_5",
+          "mobilityKey": "housing.mobility.no_car"
+        },
+        {
+          "id": "rent_social",
+          "space": 5,
+          "monthly": 350,
+          "nameKey": "housing.rent.options.rent_social",
+          "needsCar": false,
+          "spaceKey": "housing.space.max_5",
+          "mobilityKey": "housing.mobility.no_car"
+        },
+        {
+          "id": "rent_house_country",
+          "space": 5,
+          "monthly": 1200,
+          "nameKey": "housing.rent.options.rent_house_country",
+          "needsCar": true,
+          "spaceKey": "housing.space.max_5",
+          "mobilityKey": "housing.mobility.need_car"
+        }
+      ],
+      "social_housing_conditions": {
+        "maxIncome": 1600,
+        "exampleIncome": 2000,
+        "childDeduction": 200,
+        "exampleChildren": 3
+      }
+    }
+  },
+  "savings": {
+    "options": [
+      {
+        "id": "checking",
+        "infoKey": "savings.options.checking.info",
+        "nameKey": "savings.options.checking.name",
+        "amountKey": "savings.options.checking.amount",
+        "returnKey": "savings.options.checking.return"
+      },
+      {
+        "id": "savings",
+        "infoKey": "savings.options.savings.info",
+        "nameKey": "savings.options.savings.name",
+        "amountKey": "savings.options.savings.amount",
+        "returnKey": "savings.options.savings.return"
+      },
+      {
+        "id": "investment",
+        "infoKey": "savings.options.investment.info",
+        "nameKey": "savings.options.investment.name",
+        "amountKey": "savings.options.investment.amount",
+        "returnKey": "savings.options.investment.return"
+      }
+    ]
+  },
+  "mobility": {
+    "transport": {
+      "options": [
+        {
+          "id": "bike",
+          "space": 1,
+          "infoKey": "mobility.transport.info.per_person",
+          "nameKey": "mobility.transport.options.bike",
+          "monthlyCost": 20,
+          "purchasePrice": 3000,
+          "monthlyPurchase": 25
+        },
+        {
+          "id": "small_car",
+          "space": 4,
+          "infoKey": "mobility.transport.info.small_car",
+          "nameKey": "mobility.transport.options.small_car",
+          "monthlyCost": 150,
+          "purchasePrice": 18000,
+          "monthlyPurchase": 150
+        },
+        {
+          "id": "family_car",
+          "space": 5,
+          "infoKey": "mobility.transport.info.family_car",
+          "nameKey": "mobility.transport.options.family_car",
+          "monthlyCost": 175,
+          "purchasePrice": 25000,
+          "monthlyPurchase": 210
+        },
+        {
+          "id": "sports_car",
+          "space": 2,
+          "infoKey": "mobility.transport.info.sports_car",
+          "nameKey": "mobility.transport.options.sports_car",
+          "monthlyCost": 200,
+          "purchasePrice": 50000,
+          "monthlyPurchase": 420
+        }
+      ]
+    },
+    "auto_insurance": {
+      "options": [
+        {
+          "id": "ba_mandatory",
+          "descKey": "mobility.auto_insurance.options.ba_mandatory.desc",
+          "nameKey": "mobility.auto_insurance.options.ba_mandatory.name",
+          "franchise": 250,
+          "yearlyCost": 300,
+          "coverageKey": "mobility.auto_insurance.options.ba_mandatory.coverage",
+          "monthlyCost": 25,
+          "monthlyCostSports": 50
+        },
+        {
+          "id": "small_omnium",
+          "descKey": "mobility.auto_insurance.options.small_omnium.desc",
+          "nameKey": "mobility.auto_insurance.options.small_omnium.name",
+          "franchise": 500,
+          "yearlyCost": 660,
+          "coverageKey": "mobility.auto_insurance.options.small_omnium.coverage",
+          "monthlyCost": 55,
+          "monthlyCostSports": 125
+        },
+        {
+          "id": "large_omnium",
+          "descKey": "mobility.auto_insurance.options.large_omnium.desc",
+          "nameKey": "mobility.auto_insurance.options.large_omnium.name",
+          "franchise": 1000,
+          "yearlyCost": 860,
+          "coverageKey": "mobility.auto_insurance.options.large_omnium.coverage",
+          "monthlyCost": 70,
+          "monthlyCostSports": 350
+        }
+      ]
+    }
+  },
+  "living_costs": {
+    "options": [
+      {
+        "id": "stay_home",
+        "nameKey": "housing.rent.options.stay_home",
+        "one_child": "/",
+        "no_children": 500,
+        "two_children": "/",
+        "three_children": "/"
+      },
+      {
+        "id": "rent_shared_5y",
+        "nameKey": "housing.rent.options.rent_shared_5y",
+        "one_child": "/",
+        "no_children": 650,
+        "two_children": "/",
+        "three_children": "/"
+      },
+      {
+        "id": "rent_shared",
+        "nameKey": "housing.rent.options.rent_shared",
+        "one_child": "/",
+        "no_children": 750,
+        "two_children": "/",
+        "three_children": "/"
+      },
+      {
+        "id": "other_single",
+        "nameKey": "living_costs.options.other_single",
+        "one_child": 1400,
+        "no_children": 900,
+        "two_children": 1900,
+        "three_children": 2500
+      },
+      {
+        "id": "other_partner",
+        "nameKey": "living_costs.options.other_partner",
+        "one_child": 1800,
+        "no_children": 1300,
+        "two_children": 2400,
+        "three_children": 2900
+      }
+    ]
+  },
+  "general_insurance": {
+    "options": [
+      {
+        "id": "fire",
+        "costs": {
+          "ownerHouse": 55.0,
+          "rent_shared": 2.5,
+          "buy_apt_city": 10.0,
+          "rent_apt_city": 10.0,
+          "rent_shared_5y": 1.5,
+          "rent_house_country": 20.0
+        },
+        "infoKey": "general_insurance.options.fire.info",
+        "nameKey": "general_insurance.options.fire.name",
+        "costsKey": "general_insurance.options.fire.costs_explanation",
+        "franchise": 450
+      },
+      {
+        "id": "family",
+        "costs": { "standard": 10 },
+        "infoKey": "general_insurance.options.family.info",
+        "nameKey": "general_insurance.options.family.name",
+        "costsKey": "general_insurance.options.family.costs_explanation",
+        "franchise": 250
+      },
+      {
+        "id": "hospitalization",
+        "costs": { "adult": 10, "child": 5 },
+        "infoKey": "general_insurance.options.hospitalization.info",
+        "nameKey": "general_insurance.options.hospitalization.name",
+        "costsKey": "general_insurance.options.hospitalization.costs_explanation",
+        "franchise": 75
+      },
+      {
+        "id": "accident",
+        "costs": { "perPerson": 7 },
+        "infoKey": "general_insurance.options.accident.info",
+        "nameKey": "general_insurance.options.accident.name",
+        "costsKey": "general_insurance.options.accident.costs_explanation",
+        "franchise": 50
+      }
+    ]
+  }
+}

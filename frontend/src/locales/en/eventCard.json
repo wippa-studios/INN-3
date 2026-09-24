@@ -1,0 +1,185 @@
+{
+  "events": {
+    "common": {
+      "yes": "YES",
+      "no": "NO",
+      "franchise": "Franchise (see file financial data p. 4-5)",
+      "dice_1_2": "1-2",
+      "dice_3_4": "3-4",
+      "dice_5_6": "5-6",
+      "insurance_cl": "CL",
+      "insurance_cl_comprehensive": "CL + Comprehensive insurance",
+      "insurance_cl_full": "CL + Full insurance",
+      "insurance_accident": "Accident insurance",
+      "circles_0": "0 crossed circles",
+      "circles_1": "1 crossed circle",
+      "circles_2": "2 crossed circles",
+      "circles_3": "3 crossed circles",
+      "confirm_impact": "Confirm"
+    },
+    "second_car": {
+      "title": "SECOND CAR",
+      "description": "Purchase of a second car.",
+      "options": { "default": { "label": "Cost", "value": "" } }
+    },
+    "divorce": {
+      "title": "DIVORCE",
+      "description": "Loss of partner's salary (n/a for singles).",
+      "options": { "has_partner": { "label": "Impact divorce", "value": "Check partners salary" } }
+    },
+    "car_accident_parked": {
+      "title": "CAR ACCIDENT",
+      "description": "You drive into a parked car. Both cars are damaged.",
+      "options": { "cl": { "value": "" } }
+    },
+    "car_accident_hail": {
+      "title": "CAR ACCIDENT",
+      "description": "A heavy hailstorm causes a lot of damage to your car.",
+      "options": { "cl": { "value": "" } }
+    },
+    "car_accident_traffic_jam": {
+      "title": "CAR ACCIDENT",
+      "description": "You hit another car in a traffic jam. In addition to the damage to several cars, you have also suffered an injury.",
+      "options": { "cl": { "value": "" } }
+    },
+    "inheritance": {
+      "title": "INHERITANCE",
+      "description": "Roll the dice. Each crossed circle under 'Time with the family' on your character sheet = 1 extra roll. The best throw counts.",
+      "options": {
+        "dice_1_2": { "value": "" },
+        "dice_3_4": { "value": "" },
+        "dice_5_6": { "value": "" }
+      }
+    },
+    "house_on_fire": {
+      "title": "HOUSE ON FIRE",
+      "description": "Do you have fire insurance?",
+      "options": { "no": { "value": "" } }
+    },
+    "storm_damage_trampoline": {
+      "title": "STORM DAMAGE",
+      "description": "Your trampoline damages the neighbour's pool house. Do you have family insurance?",
+      "options": { "no": { "value": "" } }
+    },
+    "storm_damage_roof": {
+      "title": "STORM DAMAGE",
+      "description": "Your roof tiles fly through your neighbour's window. Do you have a fire insurance?",
+      "options": { "no": { "value": "" } }
+    },
+    "dismissal": {
+      "title": "DISMISSAL / JOB LOSS",
+      "description": "Loss is determined by what you chose under 'Education and training' on your character sheet.",
+      "options": {
+        "circles_0": { "value": "" },
+        "circles_1": { "value": "" },
+        "circles_2": { "value": "" },
+        "circles_3": { "value": "" }
+      }
+    },
+    "promotion": {
+      "title": "PROMOTION",
+      "description": "Promotion is determined by what you chose under 'Education and training' on your character sheet.",
+      "options": {
+        "circles_0": { "value": "Keep salary" },
+        "circles_1": { "value": "" },
+        "circles_2": { "value": "" },
+        "circles_3": { "value": "" }
+      }
+    },
+    "new_job": {
+      "title": "NEW (DIFFERENT) JOB",
+      "description": "Roll the dice. Each crossed circle under 'Education and training' on your character sheet = 1 extra roll. The best throw counts.",
+      "options": {
+        "dice_1_2": { "value": "" },
+        "dice_3_4": { "value": "" },
+        "dice_5_6": { "value": "" }
+      }
+    },
+    "illness_work": {
+      "title": "ILLNESS",
+      "description": "You are ill and cannot work for a while. (*You are only self-employed if this is explicitly stated on your character sheet)",
+      "options": {
+        "employee": { "label": "Employee?", "value": "Keep salary" },
+        "self_employed": { "label": "Self-employed?*", "value": "" }
+      }
+    },
+    "financial_support": {
+      "title": "FINANCIAL SUPPORT",
+      "description": "Roll the dice. Each crossed circle under 'Time with the family' on your character sheet = 1 extra roll. The best throw counts.",
+      "options": {
+        "dice_1_2": { "value": "" },
+        "dice_3_4": { "value": "" },
+        "dice_5_6": { "value": "" }
+      }
+    },
+    "holiday": {
+      "title": "ON HOLIDAY",
+      "description": "Time for a holiday! Roll the dice to choose your destination.",
+      "options": {
+        "own_country": { "label": "1-2 (Own country)", "value": "- ({{val}} x number of family members)" },
+        "neighbouring_country": { "label": "3-4 (Neighbouring country)", "value": "- ({{val}} x number of family members)" },
+        "further_afield": { "label": "5-6 (Further afield)", "value": "- ({{val}} x number of family members)" }
+      }
+    },
+    "leaking_roof": {
+      "title": "LEAKING ROOF",
+      "description": "The roof needs to be replaced. You cannot make an insurance claim.",
+      "options": {
+        "owner": { "label": "Own your own home?", "value": "" },
+        "tenant": { "label": "Renting?", "value": "(Owner to pay)" }
+      }
+    },
+    "illness_dice": {
+      "title": "ILLNESS",
+      "description": "Roll the dice. Each crossed circle under 'Healthy living' on your character sheet = 1 extra roll. The best throw counts.",
+      "options": {
+        "dice_1_2": { "value": "" },
+        "dice_3_4": { "value": "" },
+        "dice_5_6": { "value": "" }
+      }
+    },
+    "hospital_treatment": {
+      "title": "HOSPITAL TREATMENT",
+      "description": "Do you have hospitalisation insurance?",
+      "options": { "no": { "value": "" } }
+    },
+    "housing_costs": {
+      "title": "HOUSING COSTS",
+      "description": "Roll the dice. Each crossed circle under 'Social life' and/or 'Volunteer work' on your character sheet = 1 extra roll. The best throw counts.",
+      "options": {
+        "low_1_2": { "value": "" },
+        "low_3_4": { "value": "" },
+        "low_5_6": { "value": "" },
+        "high_1_2": { "value": "" },
+        "high_3_4": { "value": "" },
+        "high_5_6": { "value": "" }
+      }
+    },
+    "depression": {
+      "title": "DEPRESSION / BURNOUT / BOREOUT",
+      "description": "Roll the dice. Each crossed circle under 'Healthy living' and/or 'Social life' on your character sheet = 1 extra roll. The best throw counts.",
+      "options": {
+        "dice_1_2": { "value": "/" },
+        "dice_3_4": { "value": "" },
+        "dice_5_6": { "value": "" }
+      }
+    }
+  },
+  "event_cards": {
+    "welcome_text": "Expect the unexpected.",
+    "start": "Start",
+    "choose_one": "Choose 1 card",
+    "choose_card": "Choose your card",
+    "cards_confirmed": "{{count}}/3 cards confirmed",
+    "all_confirmed": "All cards confirmed!",
+    "back_to_sheet": "Back to calculation sheet",
+    "back": "← Back",
+    "select_situation": "Which situation applies to you?",
+    "confirm": "Confirm",
+    "your_cards": "Your 3 cards",
+    "roll": "Roll",
+    "roll_instruction": "What does fate have in store?",
+    "you_got": "You got:",
+    "check_insurance": "Which insurance do you have? Check your calculation sheet."
+  }
+}

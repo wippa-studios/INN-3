@@ -1,0 +1,47 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: liveyourlife
+      POSTGRES_PASSWORD: liveyourlife
+      POSTGRES_DB: liveyourlife
+    ports:
+      - "9999:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U liveyourlife -d liveyourlife"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    image: lyl-backend:latest
+    build:
+      context: ./backend
+      dockerfile: LYL.Api/Dockerfile
+    ports:
+      - "5187:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=liveyourlife;Username=liveyourlife;Password=liveyourlife
+      - Cors__AllowedOrigins=http://cigritdev.fortiddns.com:21001,http://localhost:8888
+      - Supervisor__Pin=${SUPERVISOR_PIN:-0420}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    image: lyl-frontend:latest
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: http://cigritdev.fortiddns.com:21002
+    ports:
+      - "8888:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

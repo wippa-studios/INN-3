@@ -1,0 +1,20 @@
+.pane-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background: transparent;
+}
+
+.pane-content {
+  background: rgba(253, 239, 210);
+  padding: 2rem;
+  border-radius: 12px;
+  width: auto;
+  max-width: 90vw;
+  display: inline-block;
+  white-space: normal;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}

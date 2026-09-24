@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes danger-shake {
+  0% {
+    transform: translateX(0) rotate(var(--rot));
+  }
+
+  10% {
+    transform: translateX(-8px) rotate(calc(var(--rot) - 3deg));
+  }
+
+  20% {
+    transform: translateX(8px) rotate(calc(var(--rot) + 3deg));
+  }
+
+  30% {
+    transform: translateX(-6px) rotate(calc(var(--rot) - 2deg)) translateY(-10px);
+  }
+
+  40% {
+    transform: translateX(6px) rotate(calc(var(--rot) + 2deg)) translateY(-15px);
+  }
+
+  50% {
+    transform: translateX(-4px) rotate(calc(var(--rot) - 1deg)) translateY(-10px);
+  }
+
+  60% {
+    transform: translateX(4px) rotate(calc(var(--rot) + 1deg)) translateY(-5px);
+  }
+
+  70% {
+    transform: translateX(-2px) rotate(var(--rot)) translateY(-3px);
+  }
+
+  80% {
+    transform: translateX(2px) rotate(var(--rot));
+  }
+
+  90% {
+    transform: translateX(-1px) rotate(var(--rot));
+  }
+
+  100% {
+    transform: translateX(0) rotate(var(--rot));
+  }
+}
+
+.card-float {
+  animation: none;
+}
+
+.wave-letter {
+  display: inline-block;
+  animation: wave 1.2s ease-in-out infinite;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+

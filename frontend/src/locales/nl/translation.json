@@ -1,0 +1,266 @@
+{
+  "studentPhase": {
+    "title": "STUDENTENFASE",
+    "character_label": "PERSONAGE",
+    "instructions": "Bepaal de tijdsbesteding van jouw personage.\nDe keuzes die je nu maakt kunnen later in jouw voor- of nadeel zijn.\nEnkele keuzes zijn al voor jou gemaakt, je mag nog 3 extra keuzes maken.",
+    "alert_max_choices": "Je mag in totaal maar {{max}} extra keuzes maken!",
+    "next_button": "VOLGENDE",
+    "choices_remaining": "Je hebt nog {{count}} keuze(s) te maken.",
+    "readonly_instructions": "Gemaakte keuzes in de studentenfase",
+    "categories": {
+      "volunteering": {
+        "title": "VRIJWILLIGERSWERK",
+        "desc": "• Je leert nieuwe mensen kennen\n• Je krijgt voldoening en waardering"
+      },
+      "social": {
+        "title": "SOCIALE CONTACTEN",
+        "desc": "• Je hebt een groot sociaal netwerk\n• Feesten, op café met vrienden, ..."
+      },
+      "family": {
+        "title": "TIJD MET DE FAMILIE",
+        "desc": "• Steun in moeilijke tijden\n• Maar ook steun en hulp bieden"
+      },
+      "education": {
+        "title": "OPLEIDING EN VORMING",
+        "desc": "• Investeren in levenslang leren\n• Veel kansen op de arbeidsmarkt"
+      },
+      "job_spend": {
+        "title": "STUDENTENJOB - DOEL: BESTEDEN",
+        "desc": "• Werkervaring\n• Budget om te feesten, reizen, ... tijdens de studentenfase"
+      },
+      "job_save": {
+        "title": "STUDENTENJOB - DOEL: SPAREN",
+        "desc": "• Werkervaring\n• Sparen voor later \n• Elke gekozen cirkel voegt € 5000 toe"
+      },
+      "health": {
+        "title": "GEZOND LEVEN",
+        "desc": "• Sporten en gezonde voeding\n• Zelfvertrouwen en sociaal contact"
+      }
+    }
+  },
+
+  "characters": {
+    "char1": {
+      "name": "Nina",
+      "education": "Bachelor Journalistiek",
+      "interests": "• Lezen\n• Familie",
+      "info": "• 2 jongere zussen, waarvan één met autisme\n• Droomt ervan journaalpresentatrice te worden",
+      "experience": "7 jaar = 84 maanden",
+      "job1": "Communicatieverantwoordelijke",
+      "job2": "Redactiemedewerker",
+      "job3": "Nieuwslezer",
+      "perks": "/",
+      "parental_support": "/"
+    },
+    "char2": {
+      "name": "Dounia",
+      "education": "Bachelor Interieurarchitectuur",
+      "interests": "• Mode\n• Citytrips",
+      "info": "• Haar moeder is architect\n• Ze is enig kind",
+      "experience": "7 jaar = 84 maanden",
+      "job1": "Medewerker interieurwinkel",
+      "job2": "Ontwerper",
+      "job3": "Zelfstandig interieurvormgever",
+      "perks": "/",
+      "parental_support": "€ 50.000"
+    },
+    "char3": {
+      "name": "Brent",
+      "education": "Beroepsonderwijs (Domotica)",
+      "interests": "• Sociale contacten\n• Genieten van het leven",
+      "info": "• Zijn vader is 6 jaar geleden overleden\n• Hij heeft een tijdlang moeilijke momenten gekend",
+      "experience": "10 jaar = 120 maanden",
+      "job1": "Zelfstandig installateur domotica",
+      "job2": "Installateur domotica bedrijf",
+      "job3": "Zelfstandig plaatser alarmen",
+      "perks": "/",
+      "parental_support": "€ 35.000"
+    },
+    "char4": {
+      "name": "Rik",
+      "education": "Master Handelsingenieur",
+      "interests": "• Sportwagens\n• Luxe",
+      "info": "• Zeer ambitieus\n• Zijn beide ouders hebben een hoge functie\n• Komt uit een rijke familie",
+      "experience": "6 jaar = 72 maanden",
+      "job1": "Relatiebeheerder bank",
+      "job2": "Zaakvoerder eigen bedrijf (zelfstandige)",
+      "job3": "Projectleider metaalbedrijf",
+      "perks": "• Projectleider metaalbedrijf: bedrijfswagen, omniumverzekering en hospitalisatieverzekering\n• Andere job: /",
+      "parental_support": "Rik mag wonen in het appartement van de ouders tijdens de eerste werkfase. Hij heeft dus geen kosten huisvesting. Daarna moet Rik een eigen woning zoeken."
+    },
+    "char5": {
+      "name": "Ishan",
+      "education": "Master Industrieel Ingenieur",
+      "interests": "• Kunst en cultuur",
+      "info": "• Staat onder druk van zijn ouders\n• Zijn (groot)ouders hebben hard gewerkt om hun doelen te bereiken",
+      "experience": "6 jaar = 72 maanden",
+      "job1": "Project manager",
+      "job2": "Maintenance engineer",
+      "job3": "Civil engineer",
+      "perks": "• Maintenance en civil engineer: bedrijfswagen, omniumverzekering en hospitalisatieverzekering\n• Andere job: /",
+      "parental_support": "€ 75.000"
+    },
+    "char6": {
+      "name": "Lena",
+      "education": "Beroepsonderwijs (Schoonheidsspecialiste)",
+      "interests": "• Mode en make-up\n• Sociale media",
+      "info": "• Maakt deel uit van een nieuw samengesteld gezin\n• Ze heeft 1 oudere broer en 3 jongere zussen",
+      "experience": "11 jaar = 132 maanden",
+      "job1": "Medewerker pedicure",
+      "job2": "Schoonheidsspecialiste",
+      "job3": "Zelfstandige manicure",
+      "perks": "/",
+      "parental_support": "€ 40.000"
+    },
+    "char7": {
+      "name": "Yassin",
+      "education": "Bachelor Sociaal Werk (Maatschappelijk Assistent)",
+      "interests": "• Vrijwilligerswerk\n• Animator in een jeugdbeweging",
+      "info": "• Doet vrijwilligerswerk\n• Spreekt meerdere talen",
+      "experience": "7 jaar = 84 maanden",
+      "job1": "Sociaal werker",
+      "job2": "HR-assistent",
+      "job3": "Jobcoach",
+      "perks": "/",
+      "parental_support": "€ 30.000"
+    },
+    "char8": {
+      "name": "Emma",
+      "education": "Informaticabeheer (TSO / Kwalificatieonderwijs)",
+      "interests": "• Nieuwe technologieën\n• Videogames",
+      "info": "• Motorische beperking door een misvorming van de wervelkolom\n• Ze is een echte doorzetter/vechter",
+      "experience": "11 jaar = 132 maanden",
+      "job1": "Medewerker electronicawinkel",
+      "job2": "Medewerker helpdesk",
+      "job3": "Data-analist",
+      "perks": "• Data-analist: bedrijfswagen, omniumverzekering en hospitalisatieverzekering\n• Andere job: /",
+      "parental_support": "€ 25.000"
+    },
+    "char9": {
+      "name": "Ujana",
+      "education": "Master in de Diergeneeskunde",
+      "interests": "• Natuur\n• Reizen en avontuur",
+      "info": "• Doet vrijwilligerswerk\n• Wil de wereld ontdekken na haar studies\n• Wil zich momenteel niet binden",
+      "experience": "5 jaar = 60 maanden",
+      "job1": "Medewerker dierenopvangcentrum",
+      "job2": "Verantwoordelijke dierenwelzijn fokbedrijf",
+      "job3": "Dierenarts",
+      "perks": "/",
+      "parental_support": "€ 25.000"
+    },
+    "char10": {
+      "name": "Stijn",
+      "education": "Heeft geen diploma secundair onderwijs behaald",
+      "interests": "• Sport\n• Sociale contacten",
+      "info": "• Wil geld verdienen om zijn zieke moeder financieel te helpen\n• Wil graag een groot gezin stichten",
+      "experience": "11 jaar = 132 maanden",
+      "job1": "Barman",
+      "job2": "Zelfstandig renovaties",
+      "job3": "Verkoper",
+      "perks": "• Verkoper: bedrijfswagen, omniumverzekering en hospitalisatieverzekering\n• Andere job: /",
+      "parental_support": "€ 25.000"
+    }
+  },
+
+  "profile_labels": {
+    "age": "LEEFTIJD",
+    "years": "jaar",
+    "education": "STUDIE",
+    "interests": "INTERESSES",
+    "info": "INFO",
+    "experience": "WERKERVARING EERSTE WERKFASE",
+    "phase_1": "EERSTE WERKFASE",
+    "phase_2": "TWEEDE WERKFASE",
+    "possible_jobs": "MOGELIJKE JOBS",
+    "brut_start": "BRUTO MAANDLOON STARTER",
+    "net_start": "NETTO MAANDLOON STARTER",
+    "avg_brut": "GEMIDDELD BRUTO MAANDLOON",
+    "avg_net": "GEMIDDELD NETTO MAANDLOON",
+    "pension": "NETTO PENSIOEN-UITKERING",
+    "perks": "EXTRALEGALE VOORDELEN",
+    "parental_support": "STEUN EIGEN OUDERS",
+    "children": "AANTAL KINDEREN",
+    "partner_support": "STEUN (OUDERS) PARTNER",
+    "partner_wage": "MAANDLOON PARTNER",
+    "phase_1_small": "Eerste werkfase",
+    "phase_2_small": "Tweede werkfase"
+  },
+
+  "home_player_page": {
+    "title": "Join een Spel",
+    "room_code": "Kamer Code",
+    "nickname": "Jouw Naam",
+    "table_number": "Tafel Nummer",
+    "join_game": "Start",
+    "active_session": "Je zit nog in kamer:",
+    "continue_game": "GA VERDER MET SPELEN",
+    "leave_table": "TAFEL DEFINITIEF VERLATEN"
+  },
+  "supervisor_page": {
+    "title": "Dashboard",
+    "create_room_button": "MAAK EEN KAMER AAN",
+    "room_code_label": "JOUW KAMER CODE",
+    "in_progress": "SPEL IS BEZIG",
+    "starting": "Starten...",
+    "start_game": "START HET SPEL!",
+    "waiting_for_players": "Wacht op spelers om te kunnen starten...",
+    "table": "TAFEL",
+    "waiting": "Wachten op spelers...",
+    "pin_subtitle": "Supervisor Toegang",
+    "pin_placeholder": "Voer PIN in",
+    "pin_submit": "BEVESTIGEN",
+    "pin_invalid": "Onjuiste PIN. Probeer opnieuw.",
+    "pin_error_generic": "Er ging iets mis. Probeer opnieuw.",
+    "close_room_button" : "Kamer sluiten"
+  },
+  "phases": {
+    "offline": "Offline",
+    "waiting": "Wachtruimte",
+    "student": "Studentenfase",
+    "first_work": "Eerste Werkfase",
+    "second_work": "Tweede Werkfase",
+    "playing": "In Game"
+  },
+  "waiting_room": {
+    "title": "Wachtruimte",
+    "message": "Je bent succesvol aangemeld voor kamer:",
+    "waiting_for_start": "Wachten tot de docent start...",
+    "leave_button": "TAFEL VERLATEN"
+  },
+  "character_discovery": {
+    "loading": "Kaarten worden geschud...",
+    "title": "Kies je kaart",
+    "subtitle": "Welke rol neem jij aan deze tafel?",
+    "continue": "Ga verder naar je studentenfiche"
+  },
+  "general": {
+    "loading": "Data laden...",
+    "no_role": "Geen rol gevonden",
+    "save_error": "Er ging iets mis bij het opslaan van je keuzes. Probeer het nog eens.",
+    "dev_saved": "Data opgeslagen! Open je console (F12) om de gegenereerde JSON te zien."
+  },
+  "job_wheel": {
+    "discover_job": "Tijd om te ontdekken welke job jij gaat uitvoeren!",
+    "spinning": "AAN HET DRAAIEN...",
+    "spin": "SPIN HET RAD!",
+    "congrats": "Gefeliciteerd, dit is je job!",
+    "accept": "Accepteer & Ga Verder"
+  },
+  "partner_wheel": {
+    "possible_partners": "Mogelijke partners",
+    "discover_partner": "Tijd om te ontdekken welke partner jij al dan niet gaat hebben!",
+    "congrats": "Dit is de financiële situatie van je partner.",
+    "no_partner": "Je hebt geen partner.",
+    "firstphase": "Je hebt nog geen partner en/of kinderen."
+  },
+  "children_wheel": {
+    "possible_children": "Mogelijke gezinsituaties",
+    "discover_children": "Tijd om te ontdekken hoeveel kinderen jij gaat hebben!",
+    "congrats": "Gefeliciteerd, dit is je gezin!"
+  },
+  "navigation_blocked": {
+    "title": "Je kan niet terug!",
+    "message": "Weg navigeren onderbreekt je spel. Gebruik de Verlaat-knop als je correct wil afsluiten.",
+    "dismiss": "Begrepen"
+  }
+}

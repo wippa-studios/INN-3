@@ -1,0 +1,265 @@
+{
+  "studentPhase": {
+    "title": "STUDENT PHASE",
+    "character_label": "CHARACTER",
+    "instructions": "Determine the time allocation of your character.\nThe choices you make now may work to your advantage or disadvantage later.\nSome choices have already been made for you, you can make 3 more choices.",
+    "alert_max_choices": "You can only make a total of {{max}} extra choices!",
+    "next_button": "NEXT",
+    "choices_remaining": "You still have {{count}} choice(s) to make.",
+    "readonly_instructions": "Choices made in the student phase",
+    "categories": {
+      "volunteering": {
+        "title": "VOLUNTEER WORK",
+        "desc": "• You get to meet new people\n• You feel fulfilled and appreciated"
+      },
+      "social": {
+        "title": "SOCIAL CONTACTS",
+        "desc": "• You have a large social network\n• Partying, going to bars with friends, etc"
+      },
+      "family": {
+        "title": "TIME WITH FAMILY",
+        "desc": "• You get support when times are hard\n• But you also offer your support and help"
+      },
+      "education": {
+        "title": "EDUCATION AND TRAINING",
+        "desc": "• Investing in lifelong learning\n• Lots of opportunities for work"
+      },
+      "job_spend": {
+        "title": "STUDENT JOB - GOAL: SPENDING",
+        "desc": "• Work experience\n• Budget to party, travel, etc \nduring the student phase"
+      },
+      "job_save": {
+        "title": "STUDENT JOB - GOAL: SAVING",
+        "desc": "• Work experience\n• Save for later\n• Each choosen circle adds € 5000"
+      },
+      "health": {
+        "title": "HEALTHY LIVING",
+        "desc": "• Sports and healthy food\n• Self-confidence and social contact"
+      }
+    }
+  },
+
+  "characters": {
+    "char1": {
+      "name": "Nina",
+      "education": "Bachelor of Journalism",
+      "interests": "• Reading\n• Family",
+      "info": "• 2 younger sisters, one of whom has autism\n• Dreams of becoming a news anchor",
+      "experience": "7 years = 84 months",
+      "job1": "Communications Manager",
+      "job2": "Editorial Assistant",
+      "job3": "News Anchor",
+      "perks": "/",
+      "parental_support": "/"
+    },
+    "char2": {
+      "name": "Dounia",
+      "education": "Bachelor of Interior Architecture",
+      "interests": "• Fashion\n• City trips",
+      "info": "• Her mother is an architect\n• She is an only child",
+      "experience": "7 years = 84 months",
+      "job1": "Interior Store Employee",
+      "job2": "Designer",
+      "job3": "Independent Interior Designer",
+      "perks": "/",
+      "parental_support": "€ 50,000"
+    },
+    "char3": {
+      "name": "Brent",
+      "education": "Vocational Education (Home Automation)",
+      "interests": "• Social contacts\n• Enjoying life",
+      "info": "• His father passed away 6 years ago\n• He went through a difficult period",
+      "experience": "10 years = 120 months",
+      "job1": "Independent Home Automation Installer",
+      "job2": "Company Home Automation Installer",
+      "job3": "Independent Alarm Installer",
+      "perks": "/",
+      "parental_support": "€ 35,000"
+    },
+    "char4": {
+      "name": "Rik",
+      "education": "Master in Business Engineering",
+      "interests": "• Sports cars\n• Luxury",
+      "info": "• Highly ambitious\n• Both parents hold high-level positions\n• Comes from a wealthy family",
+      "experience": "6 years = 72 months",
+      "job1": "Bank Relationship Manager",
+      "job2": "Own Company Director (Independent)",
+      "job3": "Metal Company Project Manager",
+      "perks": "• Project Manager: company car, comprehensive insurance, and hospitalization insurance\n• Other jobs: /",
+      "parental_support": "Rik can live in his parents' apartment during the first working phase. He has no housing costs. After that, he will have to find his own home."
+    },
+    "char5": {
+      "name": "Ishan",
+      "education": "Master in Industrial Engineering",
+      "interests": "• Art and culture",
+      "info": "• Faces pressure from his parents\n• His (grand)parents worked incredibly hard to achieve their goals",
+      "experience": "6 years = 72 months",
+      "job1": "Project Manager",
+      "job2": "Maintenance Engineer",
+      "job3": "Civil Engineer",
+      "perks": "• Civil/Maintenance Engineer: company car, comprehensive insurance, and hospitalization insurance\n• Other jobs: /",
+      "parental_support": "€ 75.000"
+    },
+    "char6": {
+      "name": "Lena",
+      "education": "Vocational Education (Beautician)",
+      "interests": "• Fashion and makeup\n• Social media",
+      "info": "• Part of a blended family\n• She has 1 older brother and 3 younger sisters",
+      "experience": "11 years = 132 months",
+      "job1": "Pedicure Assistant",
+      "job2": "Beautician",
+      "job3": "Independent Manicurist",
+      "perks": "/",
+      "parental_support": "€ 40.000"
+    },
+    "char7": {
+      "name": "Yassin",
+      "education": "Bachelor of Social Work",
+      "interests": "• Volunteering\n• Youth movement leader",
+      "info": "• Does volunteer work\n• Speaks multiple languages",
+      "experience": "7 years = 84 months",
+      "job1": "Social Worker",
+      "job2": "HR Assistant",
+      "job3": "Job Coach",
+      "perks": "/",
+      "parental_support": "€ 30.000"
+    },
+    "char8": {
+      "name": "Emma",
+      "education": "IT Management (Technical Education)",
+      "interests": "• New technologies\n• Video games",
+      "info": "• Motor impairment due to spina bifida\n• She is a real go-getter/fighter",
+      "experience": "11 years = 132 months",
+      "job1": "Electronics Store Employee",
+      "job2": "Helpdesk Employee",
+      "job3": "Data Analyst",
+      "perks": "• Data Analyst: company car, comprehensive insurance, and hospitalization insurance\n• Other jobs: /",
+      "parental_support": "€ 25.000"
+    },
+    "char9": {
+      "name": "Ujana",
+      "education": "Master in Veterinary Medicine",
+      "interests": "• Nature\n• Travel and adventure",
+      "info": "• Does volunteer work\n• Wants to discover the world after her studies\n• Doesn't want to settle down right now",
+      "experience": "5 years = 60 months",
+      "job1": "Animal Shelter Employee",
+      "job2": "Breeding Farm Animal Welfare Manager",
+      "job3": "Veterinarian",
+      "perks": "/",
+      "parental_support": "€ 25.000"
+    },
+    "char10": {
+      "name": "Stijn",
+      "education": "Did not obtain a secondary school diploma",
+      "interests": "• Sports\n• Social contacts",
+      "info": "• Wants to earn money to financially support his sick mother\n• Would like to start a large family",
+      "experience": "11 years = 132 months",
+      "job1": "Bartender",
+      "job2": "Independent Renovator",
+      "job3": "Salesperson",
+      "perks": "• Salesperson: company car, comprehensive insurance, and hospitalization insurance\n• Other jobs: /",
+      "parental_support": "€ 25.000"
+    }
+  },
+
+  "profile_labels": {
+    "age": "AGE",
+    "years": "years",
+    "education": "EDUCATION",
+    "interests": "INTERESTS",
+    "info": "INFO",
+    "experience": "WORK EXPERIENCE\nFIRST WORKING PHASE",
+    "phase_1": "FIRST WORKING PHASE",
+    "phase_2": "SECOND WORKING PHASE",
+    "possible_jobs": "POSSIBLE JOBS",
+    "brut_start": "GROSS\nMONTHLY SALARY\nSTARTER",
+    "net_start": "NET\nMONTHLY SALARY\nSTARTER",
+    "avg_brut": "AVERAGE\nGROSS\nMONTHLY SALARY",
+    "avg_net": "AVERAGE\nNET\nMONTHLY SALARY",
+    "pension": "NET\nPENSION\nPAYOUT",
+    "perks": "EXTRALEGAL BENEFITS",
+    "parental_support": "PARENTAL SUPPORT\n(First working phase)",
+    "partner_wage": "WAGE PARTNER",
+    "children": "NUMBER OF CHILDREN",
+    "partner_support": "PARTNER'S (PARENTAL) SUPPORT",
+    "phase_1_small": "First working phase",
+    "phase_2_small": "Second working phase"
+  },
+  "home_player_page": {
+    "title": "Join a Game",
+    "room_code": "Room Code",
+    "nickname": "Your Name",
+    "table_number": "Table Number",
+    "join_game": "START",
+    "active_session": "You are still in room:",
+    "continue_game": "CONTINUE PLAYING",
+    "leave_table": "LEAVE TABLE PERMANENTLY"
+  },
+  "supervisor_page": {
+    "title": "Dashboard",
+    "create_room_button": "CREATE A ROOM",
+    "room_code_label": "YOUR ROOM CODE",
+    "in_progress": "GAME IN PROGRESS",
+    "starting": "Starting...",
+    "start_game": "START THE GAME!",
+    "waiting_for_players": "Waiting for players to join before starting...",
+    "table": "TABLE",
+    "waiting": "Waiting for players...",
+    "pin_subtitle": "Supervisor Access",
+    "pin_placeholder": "Enter PIN",
+    "pin_submit": "CONFIRM",
+    "pin_invalid": "Incorrect PIN. Please try again.",
+    "pin_error_generic": "Something went wrong. Please try again.",
+     "close_room_button" : "close room"
+  },
+  "phases": {
+    "offline": "Offline",
+    "waiting": "Waiting Room",
+    "student": "Student Phase",
+    "first_work": "First Working Phase",
+    "second_work": "Second Working Phase",
+    "playing": "In Game"
+  },
+  "waiting_room": {
+    "title": "Waiting Room",
+    "message": "You have successfully joined room:",
+    "waiting_for_start": "Waiting for the teacher to start...",
+    "leave_button": "LEAVE TABLE"
+  },
+  "character_discovery": {
+    "loading": "Cards are being shuffled...",
+    "title": "Choose your card",
+    "subtitle": "Which role will you take at this table?",
+    "continue": "Continue to your student profile"
+  },
+  "general": {
+    "loading": "Loading data...",
+    "no_role": "No role found",
+    "save_error": "Something went wrong while saving your choices. Please try again.",
+    "dev_saved": "Data saved! Open your console (F12) to see the generated JSON."
+  },
+  "job_wheel": {
+    "discover_job": "Time to discover which job you will take on!",
+    "spinning": "SPINNING...",
+    "spin": "SPIN THE WHEEL!",
+    "congrats": "Congratulations, this is your job!",
+    "accept": "Accept & Continue"
+  },
+  "partner_wheel": {
+    "possible_partners": "Possible partners",
+    "discover_partner": "Time to find out whether or not you'll have a partner!",
+    "congrats": "This is your partner's financial situation.",
+    "no_partner": "You don't have a partner.",
+    "firstphase": "You don't have a partner and/or children yet."
+  },
+  "children_wheel": {
+    "possible_children": "Possible families",
+    "discover_children": "Time to find out how many children you're going to have!",
+    "congrats": "Congratulations, this is your family!"
+  },
+  "navigation_blocked": {
+    "title": "You can't go back!",
+    "message": "Navigating away would interrupt your game. Use the Leave button if you want to exit properly.",
+    "dismiss": "Got it"
+  }
+}

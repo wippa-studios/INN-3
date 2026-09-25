@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"; // <-- useEffect toegevoegd
+import { useEffect } from "react"; // <-- useEffect toegevoegd
 import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
 import { useSignalR } from "../hooks/useSignalR";

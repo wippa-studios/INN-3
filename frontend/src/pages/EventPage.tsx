@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import EventCardDisplay from "../components/EventCardDisplay";
 import eventList from "../assets/eventData.json";
 import type { EventCard } from "../types/EventCardType";

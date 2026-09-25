@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import type { JoinTableRequest } from "../types/Requests";
 import type { JoinTableResponse } from "../types/Reponses";
 import InputField from "../components/InputField";
-import React from "react";
 
 const HomePlayerPage = () => {
   console.log("does the deployment script actually work?");

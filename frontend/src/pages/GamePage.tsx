@@ -418,7 +418,7 @@ const GamePage = () => {
                         <EventCardDisplay
                           card={selectedCard}
                           mode="confirm"
-                          onConfirm={(cardId, conditionId) => {
+                          onConfirm={(_cardId, conditionId) => {
                             setChosenCards((prev) => [
                               ...prev,
                               { card: selectedCard, conditionId },

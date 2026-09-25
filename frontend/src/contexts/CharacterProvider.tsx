@@ -1,4 +1,4 @@
-import React, { useState, useEffect, type ReactNode } from "react";
+import { useState, useEffect, type ReactNode } from "react";
 import axios from "axios";
 import type { CharacterResponse } from "../types/CharacterModel";
 import { CharacterContext } from "./CharacterContext";

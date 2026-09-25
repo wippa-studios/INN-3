@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Wheel } from "react-custom-roulette";
 import { useTranslation } from "react-i18next";
 import Confetti from "react-confetti";

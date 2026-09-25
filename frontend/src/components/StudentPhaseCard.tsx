@@ -10,7 +10,7 @@ interface StudentPhaseCardProps {
   readOnly?: boolean;
 }
 
-const StudentPhaseCard = ({ onNext, readOnly = false }) => {
+const StudentPhaseCard = ({ onNext, readOnly = false }: StudentPhaseCardProps) => {
   const { t } = useTranslation();
 
   const { character } = useCharacter();
